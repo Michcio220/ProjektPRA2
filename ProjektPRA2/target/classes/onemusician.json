@@ -1,0 +1,13 @@
+{
+  "refId" : 1,
+  "bandId" : 20,
+  "nazwa" : "Pink Floyd",
+  "rok" : 1977,
+  "liczba" : 4,
+  "typ" : "Rock",
+  "utwor" : {
+    "idUtwory" : 93,
+    "nazwa" : "Another Brick In The Wall",
+    "rokWydania" : 1982
+  }
+}
