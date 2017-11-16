@@ -4,6 +4,8 @@ package hibernate;
 import hibernate.klasy.Band;
 import hibernate.klasy.Utwory;
 import org.apache.log4j.BasicConfigurator;
+import org.hibernate.Session;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -23,6 +25,8 @@ public class Main {
 
         try {
             entityManagerFactory = Persistence.createEntityManagerFactory("BazaMichcio");
+
+            Session session =entityManager.unwrap(Session.class);
 
             entityManager = entityManagerFactory.createEntityManager();
 
