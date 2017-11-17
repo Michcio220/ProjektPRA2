@@ -6,6 +6,7 @@ import hibernate.klasy.Utwory;
 import org.apache.log4j.BasicConfigurator;
 import org.hibernate.Session;
 
+import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -13,7 +14,7 @@ import java.util.Random;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         BasicConfigurator.configure();
 
@@ -25,8 +26,6 @@ public class Main {
 
         try {
             entityManagerFactory = Persistence.createEntityManagerFactory("BazaMichcio");
-
-            Session session =entityManager.unwrap(Session.class);
 
             entityManager = entityManagerFactory.createEntityManager();
 
@@ -53,9 +52,9 @@ public class Main {
 
             entityManager.close();
 
-        }catch (Throwable ex){
+        } catch (Throwable ex) {
             System.err.println("Initial SessionFactory creation failed." + ex);
-        }finally{
+        } finally{
             assert null != entityManagerFactory;
             entityManagerFactory.close();
         }

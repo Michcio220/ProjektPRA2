@@ -162,3 +162,213 @@
 2017-11-15 22:10:57 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
 2017-11-15 22:14:22 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
 2017-11-15 22:25:06 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
+2017-11-15 23:40:09 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
+2017-11-15 23:43:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:49:38 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:50:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:50:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:52:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:54:00 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:54:24 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:54:32 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:56:08 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-15 23:58:50 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-16 00:15:25 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-16 01:48:18 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-16 01:48:37 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
+2017-11-16 23:56:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:01:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:22:51 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:23:02 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:25:37 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:30:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:30:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:30:02 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:30:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:30:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:31:23 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:31:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:31:24 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:31:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:31:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:31:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:31:25 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:31:25 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:31:25 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:31:25 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:31:25 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:33:23 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:33:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:33:23 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:33:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:33:23 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:33:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:33:24 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:33:24 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:33:24 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:33:24 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:33:24 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:35:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:35:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:35:01 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:35:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:35:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:35:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:35:02 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:35:02 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:35:02 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:35:02 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:35:02 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:36:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:36:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:36:21 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:36:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:36:21 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:36:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:36:21 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:36:21 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:36:21 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:36:21 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:36:21 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:43:42 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:43:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:43:42 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:43:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:43:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:43:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:43:43 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:43:43 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:43:43 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:43:43 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:43:43 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:44:09 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:44:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:44:09 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:44:09 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:44:09 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:44:09 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:44:09 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:44:09 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://jdbc:postgresql://localhost:5432/BazaMichcio]
+2017-11-17 00:44:09 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:44:09 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:44:09 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:44:25 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:44:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:44:26 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:44:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:44:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:44:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:44:26 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:44:26 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/BazaMichcio]
+2017-11-17 00:44:26 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:44:26 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:44:26 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 00:44:39 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 00:44:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 00:44:39 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 00:44:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 00:44:39 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 00:44:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 00:44:40 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 00:44:40 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 00:44:40 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 00:44:40 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 00:44:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 01:07:23 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 01:07:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 01:07:24 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 01:07:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 01:07:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 01:07:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 01:07:24 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 01:07:25 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 01:07:25 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 01:07:25 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 01:07:25 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 14:36:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 14:36:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 14:36:02 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 14:36:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 14:36:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 14:36:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 14:36:03 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 14:36:03 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/BazaMichcio]
+2017-11-17 14:36:03 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 14:36:03 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 14:36:03 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 14:39:41 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 14:39:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 14:39:42 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 14:39:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 14:39:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 14:39:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 14:39:43 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 14:39:43 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426184]
+2017-11-17 14:39:43 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 14:39:43 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 14:39:43 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 14:42:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 14:42:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 14:42:45 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 14:42:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 14:42:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 14:42:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 14:42:45 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 14:42:45 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184]
+2017-11-17 14:42:45 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 14:42:45 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 14:42:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 15:18:21 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
+2017-11-17 15:18:49 INFO  JacksonSerialization:40 - Printing modified re-serialized band tojson
+2017-11-17 15:19:45 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 15:19:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 15:19:46 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 15:19:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 15:19:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 15:19:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 15:19:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 15:19:46 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184]
+2017-11-17 15:19:46 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 15:19:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 15:19:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-17 15:21:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-17 15:21:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-17 15:21:45 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-17 15:21:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-17 15:21:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-17 15:21:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-17 15:21:45 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-17 15:21:45 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184]
+2017-11-17 15:21:45 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-17 15:21:45 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-17 15:21:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)

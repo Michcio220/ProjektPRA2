@@ -53,7 +53,7 @@ public class JacksonSerialization {
 
         ObjectMapper jsonMapper = new ObjectMapper();
         jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
-        //serialiazeDemo(jsonMapper, "json");
+        serialiazeDemo(jsonMapper, "json");
         deserializeDemo(jsonMapper, "json");
 
 

@@ -2,8 +2,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import hibernate.klasy.Band;
 import hibernate.klasy.Utwory;
-import pl.edu.amu.pracprog.music.Album;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,18 +1,18 @@
 [ {
   "refId" : 1,
-  "bandId" : 20,
+  "bandId" : 16,
   "nazwa" : "Pink Floyd",
   "rok" : 1977,
   "liczba" : 4,
   "typ" : "Rock",
   "utwor" : {
-    "idUtwory" : 93,
+    "idUtwory" : 94,
     "nazwa" : "Another Brick In The Wall",
     "rokWydania" : 1982
   }
 }, {
   "refId" : 2,
-  "bandId" : 28,
+  "bandId" : 48,
   "nazwa" : "System of Down",
   "rok" : 1984,
   "liczba" : 4,

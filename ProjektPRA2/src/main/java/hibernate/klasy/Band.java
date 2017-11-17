@@ -13,16 +13,6 @@ import java.util.List;
 @Table(name = "MUSICIANS")
 public class Band {
 
-    public Band() {
-    }
-
-    public Band( String nazwa, int rok, int liczba, String typ) {
-        this.nazwa = nazwa;
-        this.rok = rok;
-        this.liczba = liczba;
-        this.typ = typ;
-    }
-
     @Id @GeneratedValue
     @Column(name= "id")
     private int bandId;
@@ -46,6 +36,15 @@ public class Band {
 
     @ManyToMany(mappedBy = "utwory",cascade = CascadeType.ALL)
     private List<Utwory> utwory = new ArrayList<>();
+    public Band() {
+    }
+
+    public Band( String nazwa, int rok, int liczba, String typ) {
+        this.nazwa = nazwa;
+        this.rok = rok;
+        this.liczba = liczba;
+        this.typ = typ;
+    }
 
     public void addUtwor(Utwory utwor){ utwory.add(utwor);}
 
