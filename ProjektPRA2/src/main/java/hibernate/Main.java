@@ -1,18 +1,34 @@
 package hibernate;
 
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import hibernate.klasy.Album;
 import hibernate.klasy.Band;
-import hibernate.klasy.Utwory;
+import hibernate.klasy.Song;
 import org.apache.log4j.BasicConfigurator;
-import org.hibernate.Session;
-
-import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
+
+    public void StworzenieBazy(ObjectMapper mapper, String fileSuffix) throws Exception{
+
+
+        InputStream bandIs2 = Jserialization.class.getClassLoader().
+                getResourceAsStream("musician." + fileSuffix);
+        List<Band> bands = mapper.readValue(bandIs2,new TypeReference<List<Band>>(){});
+        String json = mapper.writeValueAsString(bands);
+        System.out.println(json);
+
+
+
+    }
 
     public static void main(String[] args){
 
@@ -33,20 +49,35 @@ public class Main {
 
             Band bad = new Band();
             bad.setNazwa("Pink Floyd");
-            bad.setBandId(new Random().nextInt(100));
-            bad.setLiczba(4);
-            bad.setRok(1977);
             bad.setTyp("Rock");
+            bad.setRok(1997);
+            bad.setLiczba(4);
 
-            Utwory utwor = new Utwory();
-            utwor.setNazwa("Another Brick In The Wall");
-            utwor.setRokWydania(1982);
-            utwor.setIdUtwory(new Random().nextInt(100));
+            Album alb = new Album();
+            alb.setNazwaAlbumu("Pink Memories");
+            alb.setRokwydania(1982);
 
-            bad.addUtwor(utwor);
+            Song song = new Song();
+            song.setNazwa("Another Brick in the wall");
+            song.setRokWydania(1982);
+            song.setBand(bad);
+            song.setWykonawca();
 
-            entityManager.persist(utwor);
-            entityManager.persist(bad);
+            alb.getSongs().add(song);
+            bad.getSongs().add(song);
+            bad.getAlbums().add(alb);
+
+            List<Band> bands = new ArrayList<Band>();
+            bands.add(bad);
+            for(Band f : bands){
+                entityManager.persist(f);
+            }
+
+          //  entityManager.persist(bad);
+          //  entityManager.persist(song);
+          //  entityManager.persist(alb);
+
+            entityManager.getTransaction().commit();
 
             System.out.println("Done");
 
@@ -54,10 +85,10 @@ public class Main {
 
         } catch (Throwable ex) {
             System.err.println("Initial SessionFactory creation failed." + ex);
+            ex.printStackTrace();
         } finally{
             assert null != entityManagerFactory;
             entityManagerFactory.close();
         }
-
     }
 }

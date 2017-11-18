@@ -1,21 +1,36 @@
 [ {
   "refId" : 1,
-  "bandId" : 16,
-  "nazwa" : "Pink Floyd",
-  "rok" : 1977,
+  "bandId" : 1218501304,
+  "nazwa" : "The Beatles",
+  "rok" : 1960,
   "liczba" : 4,
   "typ" : "Rock",
-  "utwor" : {
-    "idUtwory" : 94,
-    "nazwa" : "Another Brick In The Wall",
-    "rokWydania" : 1982
-  }
+  "songs" : [ {
+    "nazwa" : "Something",
+    "rokWydania" : 1969,
+    "band" : 1,
+    "wykonawca" : "The Beatles",
+    "idSong" : 0
+  } ],
+  "albums" : [ {
+    "idAlbumu" : 0,
+    "nazwaAlbumu" : "Abbey Road",
+    "rokwydania" : 1969,
+    "songs" : [ {
+      "nazwa" : "Something",
+      "rokWydania" : 1969,
+      "band" : 1,
+      "wykonawca" : "The Beatles",
+      "idSong" : 0
+    } ]
+  } ]
 }, {
   "refId" : 2,
-  "bandId" : 48,
+  "bandId" : -379274041,
   "nazwa" : "System of Down",
-  "rok" : 1984,
+  "rok" : 1994,
   "liczba" : 4,
-  "typ" : "Rock",
-  "utwor" : null
+  "typ" : "Hard Rock",
+  "songs" : [ ],
+  "albums" : [ ]
 } ]

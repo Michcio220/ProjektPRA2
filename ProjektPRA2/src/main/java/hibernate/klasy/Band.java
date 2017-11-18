@@ -1,7 +1,6 @@
 package hibernate.klasy;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -9,11 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 @JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,property="refId", scope=Band.class)
+
 @Entity
 @Table(name = "MUSICIANS")
 public class Band {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name= "id")
     private int bandId;
 
@@ -29,13 +30,12 @@ public class Band {
     @Column(name = "typMuzyki")
     private String typ;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "Utwory_id",referencedColumnName = "idUtworu")
-    Utwory utwor;
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Song> songs = new ArrayList<Song>();
 
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Album> albums = new ArrayList<Album>();
 
-    @ManyToMany(mappedBy = "utwory",cascade = CascadeType.ALL)
-    private List<Utwory> utwory = new ArrayList<>();
     public Band() {
     }
 
@@ -46,7 +46,9 @@ public class Band {
         this.typ = typ;
     }
 
-    public void addUtwor(Utwory utwor){ utwory.add(utwor);}
+    public List<Album> getAlbums() { return albums; }
+
+    public List<Song> getSongs() { return songs; }
 
     public int getBandId() { return bandId; }
 
@@ -63,10 +65,6 @@ public class Band {
     public int getLiczba() { return liczba; }
 
     public void setLiczba(int liczba) { this.liczba = liczba; }
-
-    public Utwory getUtwor() { return utwor; }
-
-    public void setUtwor(Utwory utwor) { this.utwor = utwor; }
 
     public String getTyp() { return typ; }
 

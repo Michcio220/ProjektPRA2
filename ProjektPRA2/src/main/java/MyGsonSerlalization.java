@@ -1,17 +1,15 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import hibernate.klasy.Band;
-import hibernate.klasy.Utwory;
+
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 public class MyGsonSerlalization {
 
     public static void printJson() {
 
         Band band = new Band("Pink Floyd", 1998, 4, "Rock");
-        band.addUtwor(new Utwory("Another Brick In The Wall",1982));
+      //  band.addUtwor(new Utwory("Another Brick In The Wall",1982));
 
         Gson gson = new Gson();
         String serializedBand = gson.toJson(band);
