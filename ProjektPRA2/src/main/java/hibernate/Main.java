@@ -1,94 +1,56 @@
 package hibernate;
 
-
-import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.fasterxml.jackson.datatype.joda.JodaModule;
 import hibernate.klasy.Album;
 import hibernate.klasy.Band;
 import hibernate.klasy.Song;
+import hibernate.polecenia.Queries;
 import org.apache.log4j.BasicConfigurator;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Main {
 
-    public void StworzenieBazy(ObjectMapper mapper, String fileSuffix) throws Exception{
-
-
-        InputStream bandIs2 = Jserialization.class.getClassLoader().
-                getResourceAsStream("musician." + fileSuffix);
-        List<Band> bands = mapper.readValue(bandIs2,new TypeReference<List<Band>>(){});
-        String json = mapper.writeValueAsString(bands);
-        System.out.println(json);
-
-
-
-    }
-
-    public static void main(String[] args){
+    public static void main(String [] args){
 
         BasicConfigurator.configure();
-
         System.out.println("Start");
 
         EntityManager entityManager = null;
-
         EntityManagerFactory entityManagerFactory = null;
 
         try {
             entityManagerFactory = Persistence.createEntityManagerFactory("BazaMichcio");
-
             entityManager = entityManagerFactory.createEntityManager();
 
-            entityManager.getTransaction().begin();
+            Queries query = new Queries(entityManager);
+            List<Band> bands = query.getBandsByName();
+            ObjectMapper jsonMapper = new ObjectMapper();
+            jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
 
-            Band bad = new Band();
-            bad.setNazwa("Pink Floyd");
-            bad.setTyp("Rock");
-            bad.setRok(1997);
-            bad.setLiczba(4);
-
-            Album alb = new Album();
-            alb.setNazwaAlbumu("Pink Memories");
-            alb.setRokwydania(1982);
-
-            Song song = new Song();
-            song.setNazwa("Another Brick in the wall");
-            song.setRokWydania(1982);
-            song.setBand(bad);
-            song.setWykonawca();
-
-            alb.getSongs().add(song);
-            bad.getSongs().add(song);
-            bad.getAlbums().add(alb);
-
-            List<Band> bands = new ArrayList<Band>();
-            bands.add(bad);
-            for(Band f : bands){
-                entityManager.persist(f);
-            }
-
-          //  entityManager.persist(bad);
-          //  entityManager.persist(song);
-          //  entityManager.persist(alb);
-
-            entityManager.getTransaction().commit();
-
-            System.out.println("Done");
-
-            entityManager.close();
+            jsonMapper.enable(SerializationFeature.INDENT_OUTPUT);
+            jsonMapper.registerModule(new JodaModule());
+            jsonMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+            jsonMapper.writeValue(new File("result1.json"),bands);
 
         } catch (Throwable ex) {
             System.err.println("Initial SessionFactory creation failed." + ex);
             ex.printStackTrace();
-        } finally{
+        }finally{
             assert null != entityManagerFactory;
             entityManagerFactory.close();
         }
     }
+
+
 }

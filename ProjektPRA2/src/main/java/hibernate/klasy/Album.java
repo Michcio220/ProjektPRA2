@@ -1,32 +1,36 @@
 package hibernate.klasy;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 import javax.persistence.*;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refIdAlbum", scope=Album.class)
 @Entity
 @Table(name = "ALBUMS")
 public class Album {
 
-    @Id
-    @GeneratedValue
+    @Id @GeneratedValue
     @Column(name = "idAlbumu")
     private int idAlbumu;
 
-    @Column(name = "nazwa")
+    @Column(name = "nazwa", unique = true)
     private String nazwaAlbumu;
 
-    @Column(name = "rod_wyd")
+    @Column(name = "rok_wyd")
     private int rokwydania;
 
     @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable
     private List<Song> songs = new ArrayList<Song>();
 
     public Album() { }
 
-    public Album(int idAlbumu, String nazwaAlbumu, int rokwydania) {
-        this.idAlbumu = idAlbumu;
+    public Album(String nazwaAlbumu, int rokwydania) {
         this.nazwaAlbumu = nazwaAlbumu;
         this.rokwydania = rokwydania;
     }

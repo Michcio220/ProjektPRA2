@@ -8,17 +8,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 @JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,property="refId", scope=Band.class)
-
 @Entity
 @Table(name = "MUSICIANS")
 public class Band {
 
-    @Id
-    @GeneratedValue
+    @Id @GeneratedValue
     @Column(name= "id")
     private int bandId;
 
-    @Column(name = "nazwazespolu")
+    @Column(name = "nazwazespolu",unique = true)
     private String nazwa;
 
     @Column(name = "rokZalozenia")
@@ -31,28 +29,32 @@ public class Band {
     private String typ;
 
     @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable
     private List<Song> songs = new ArrayList<Song>();
 
     @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable
     private List<Album> albums = new ArrayList<Album>();
 
     public Band() {
     }
 
-    public Band( String nazwa, int rok, int liczba, String typ) {
+    public Band(String nazwa, int rok, int liczba, String typ) {
         this.nazwa = nazwa;
         this.rok = rok;
         this.liczba = liczba;
         this.typ = typ;
     }
 
+    public void setSongs(List<Song> songs) { this.songs = songs; }
+
+    public void setAlbums(List<Album> albums) { this.albums = albums; }
+
     public List<Album> getAlbums() { return albums; }
 
     public List<Song> getSongs() { return songs; }
 
     public int getBandId() { return bandId; }
-
-    public void setBandId(int bandId) { this.bandId = bandId; }
 
     public String getNazwa() { return nazwa; }
 

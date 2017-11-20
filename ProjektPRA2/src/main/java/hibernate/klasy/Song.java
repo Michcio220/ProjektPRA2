@@ -2,15 +2,16 @@ package hibernate.klasy;
 
 import com.fasterxml.jackson.annotation.*;
 
+import javax.naming.Name;
 import javax.persistence.*;
 
-@JsonIgnoreProperties
+@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refIdSong", scope=Song.class)
 @Entity
 @Table(name = "SONGS")
 public class Song {
 
-    @Id
-    @GeneratedValue
+    @Id @GeneratedValue
     @Column(name = "idUtworu")
     private int idUtwory;
 
@@ -20,9 +21,7 @@ public class Song {
     @Column(name = "rokWydania",nullable = false,length = 4)
     private int rokWydania;
 
-    @Column(name = "wykonawca")
-    private String nazwaWykonawcy;
-
+    @JsonProperty("idwykonawcy")
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "idwykonawcy",referencedColumnName = "id")
     private Band band;
@@ -30,18 +29,15 @@ public class Song {
     public Song() {
     }
 
-    public Song(String nazwa, int rokWydania) {
+    public Song(String nazwa, int rokWydania,Band bad) {
         this.nazwa = nazwa;
         this.rokWydania = rokWydania;
+        this.band = bad;
     }
 
     public Band getBand() { return band; }
 
     public void setBand(Band band) { this.band = band; }
-
-    public String getWykonawca() { return nazwaWykonawcy; }
-
-    public void setWykonawca(){ this.nazwaWykonawcy = band.getNazwa();}
 
     public int getIdSong() { return idUtwory; }
 
