@@ -1,0 +1,134 @@
+<ArrayList>
+  <item>
+    <refId>1</refId>
+    <bandId>0</bandId>
+    <nazwa>FAKE TYPE</nazwa>
+    <rok>2013</rok>
+    <liczba>2</liczba>
+    <typ>HipHop</typ>
+    <songs>
+      <songs>
+        <refIdSong>1</refIdSong>
+        <nazwa>Devil's Wedding</nazwa>
+        <rokWydania>2013</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>1</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>2</refIdSong>
+        <nazwa>Bacchus</nazwa>
+        <rokWydania>2014</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>1</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>3</refIdSong>
+        <nazwa>MONSTER'S ZOO</nazwa>
+        <rokWydania>2014</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>1</idwykonawcy>
+      </songs>
+    </songs>
+    <albums>
+      <albums>
+        <refIdAlbum>1</refIdAlbum>
+        <idAlbumu>0</idAlbumu>
+        <nazwaAlbumu>FAKE BOOK</nazwaAlbumu>
+        <rokwydania>2013</rokwydania>
+        <songs>
+          <songs>1</songs>
+          <songs>2</songs>
+          <songs>3</songs>
+        </songs>
+      </albums>
+    </albums>
+  </item>
+  <item>
+    <refId>2</refId>
+    <bandId>0</bandId>
+    <nazwa>The Beatles</nazwa>
+    <rok>1960</rok>
+    <liczba>4</liczba>
+    <typ>Rock</typ>
+    <songs>
+      <songs>
+        <refIdSong>4</refIdSong>
+        <nazwa>Two Of Us</nazwa>
+        <rokWydania>1970</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>2</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>5</refIdSong>
+        <nazwa>Dig A Pony</nazwa>
+        <rokWydania>1970</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>2</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>6</refIdSong>
+        <nazwa>Across The Universe</nazwa>
+        <rokWydania>1970</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>2</idwykonawcy>
+      </songs>
+    </songs>
+    <albums>
+      <albums>
+        <refIdAlbum>2</refIdAlbum>
+        <idAlbumu>0</idAlbumu>
+        <nazwaAlbumu>Let It Be</nazwaAlbumu>
+        <rokwydania>1970</rokwydania>
+        <songs>
+          <songs>4</songs>
+          <songs>5</songs>
+          <songs>6</songs>
+        </songs>
+      </albums>
+    </albums>
+  </item>
+  <item>
+    <refId>3</refId>
+    <bandId>0</bandId>
+    <nazwa>Pink Floyd</nazwa>
+    <rok>1965</rok>
+    <liczba>5</liczba>
+    <typ> ProgressiveRock</typ>
+    <songs>
+      <songs>
+        <refIdSong>7</refIdSong>
+        <nazwa>The Thin Ice</nazwa>
+        <rokWydania>1979</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>3</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>8</refIdSong>
+        <nazwa>Another Brick In The Wall,Part 1</nazwa>
+        <rokWydania>1979</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>3</idwykonawcy>
+      </songs>
+      <songs>
+        <refIdSong>9</refIdSong>
+        <nazwa>Goodbye Blue Sky</nazwa>
+        <rokWydania>1979</rokWydania>
+        <idSong>0</idSong>
+        <idwykonawcy>3</idwykonawcy>
+      </songs>
+    </songs>
+    <albums>
+      <albums>
+        <refIdAlbum>3</refIdAlbum>
+        <idAlbumu>0</idAlbumu>
+        <nazwaAlbumu>The Wall</nazwaAlbumu>
+        <rokwydania>1979</rokwydania>
+        <songs>
+          <songs>7</songs>
+          <songs>8</songs>
+          <songs>9</songs>
+        </songs>
+      </albums>
+    </albums>
+  </item>
+</ArrayList>
