@@ -1,7 +1,6 @@
 package hibernate.klasy;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -17,7 +16,7 @@ public class Band {
     @Column(name= "id")
     private int bandId;
 
-    @Column(name = "nazwazespolu")
+    @Column(name = "nazwazespolu",unique = true)
     private String nazwa;
 
     @Column(name = "rokZalozenia")
@@ -29,28 +28,33 @@ public class Band {
     @Column(name = "typMuzyki")
     private String typ;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "Utwory_id",referencedColumnName = "idUtworu")
-    Utwory utwor;
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable
+    private List<Song> songs = new ArrayList<Song>();
 
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable
+    private List<Album> albums = new ArrayList<Album>();
 
-    @ManyToMany(mappedBy = "utwory",cascade = CascadeType.ALL)
-    private List<Utwory> utwory = new ArrayList<>();
     public Band() {
     }
 
-    public Band( String nazwa, int rok, int liczba, String typ) {
+    public Band(String nazwa, int rok, int liczba, String typ) {
         this.nazwa = nazwa;
         this.rok = rok;
         this.liczba = liczba;
         this.typ = typ;
     }
 
-    public void addUtwor(Utwory utwor){ utwory.add(utwor);}
+    public void setSongs(List<Song> songs) { this.songs = songs; }
+
+    public void setAlbums(List<Album> albums) { this.albums = albums; }
+
+    public List<Album> getAlbums() { return albums; }
+
+    public List<Song> getSongs() { return songs; }
 
     public int getBandId() { return bandId; }
-
-    public void setBandId(int bandId) { this.bandId = bandId; }
 
     public String getNazwa() { return nazwa; }
 
@@ -63,10 +67,6 @@ public class Band {
     public int getLiczba() { return liczba; }
 
     public void setLiczba(int liczba) { this.liczba = liczba; }
-
-    public Utwory getUtwor() { return utwor; }
-
-    public void setUtwor(Utwory utwor) { this.utwor = utwor; }
 
     public String getTyp() { return typ; }
 

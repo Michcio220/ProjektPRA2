@@ -1,63 +1,56 @@
 package hibernate;
 
-
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.fasterxml.jackson.datatype.joda.JodaModule;
+import hibernate.klasy.Album;
 import hibernate.klasy.Band;
-import hibernate.klasy.Utwory;
+import hibernate.klasy.Song;
+import hibernate.polecenia.Queries;
 import org.apache.log4j.BasicConfigurator;
-import org.hibernate.Session;
-
-import javax.naming.NamingException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.util.Random;
+import java.io.File;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String [] args){
 
         BasicConfigurator.configure();
-
         System.out.println("Start");
 
         EntityManager entityManager = null;
-
         EntityManagerFactory entityManagerFactory = null;
 
         try {
             entityManagerFactory = Persistence.createEntityManagerFactory("BazaMichcio");
-
             entityManager = entityManagerFactory.createEntityManager();
 
-            entityManager.getTransaction().begin();
+            Queries query = new Queries(entityManager);
+            List<Band> bands = query.getBandsByName();
+            ObjectMapper jsonMapper = new ObjectMapper();
+            jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
 
-            Band bad = new Band();
-            bad.setNazwa("Pink Floyd");
-            bad.setBandId(new Random().nextInt(100));
-            bad.setLiczba(4);
-            bad.setRok(1977);
-            bad.setTyp("Rock");
-
-            Utwory utwor = new Utwory();
-            utwor.setNazwa("Another Brick In The Wall");
-            utwor.setRokWydania(1982);
-            utwor.setIdUtwory(new Random().nextInt(100));
-
-            bad.addUtwor(utwor);
-
-            entityManager.persist(utwor);
-            entityManager.persist(bad);
-
-            System.out.println("Done");
-
-            entityManager.close();
+            jsonMapper.enable(SerializationFeature.INDENT_OUTPUT);
+            jsonMapper.registerModule(new JodaModule());
+            jsonMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+            jsonMapper.writeValue(new File("result1.json"),bands);
 
         } catch (Throwable ex) {
             System.err.println("Initial SessionFactory creation failed." + ex);
-        } finally{
+            ex.printStackTrace();
+        }finally{
             assert null != entityManagerFactory;
             entityManagerFactory.close();
         }
-
     }
+
+
 }
