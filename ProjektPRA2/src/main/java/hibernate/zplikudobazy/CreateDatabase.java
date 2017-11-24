@@ -12,8 +12,16 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.util.List;
 
-@SuppressWarnings("unchecked")
 public class CreateDatabase{
+
+    public CreateDatabase() throws Exception {
+        ObjectMapper jsonMapper = new ObjectMapper();
+        jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
+        StworzenieBazy(jsonMapper,"json");
+        ObjectMapper xmlMapper = new XmlMapper();
+        xmlMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
+        //StworzenieBazy(xmlMapper,"xml");
+    }
 
 
     //funkcja wprowadzajaca dane z pliku do bazy
@@ -51,12 +59,7 @@ public class CreateDatabase{
 
     public static void main(String[] args) throws Exception{
 
-        ObjectMapper jsonMapper = new ObjectMapper();
-        jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
-        StworzenieBazy(jsonMapper,"json");
-        ObjectMapper xmlMapper = new XmlMapper();
-        xmlMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
-        //StworzenieBazy(xmlMapper,"xml");
+        CreateDatabase createDatabase = new CreateDatabase();
 
     }
 }

@@ -108,10 +108,10 @@ public class ObjectsCreator {
 
         ObjectMapper xmlmapper = new XmlMapper();
         ObjectsCreator objectsCreator = new ObjectsCreator();
-        objectsCreator.zapiszDoPliku(xmlmapper,"xml");
+       // objectsCreator.zapiszDoPliku(xmlmapper,"xml");
         ObjectMapper jsonMapper = new ObjectMapper();
         ObjectsCreator objectsCreator1 = new ObjectsCreator();
-        objectsCreator1.zapiszDoPliku(jsonMapper,"json");
+       // objectsCreator1.zapiszDoPliku(jsonMapper,"json");
     }
 
 

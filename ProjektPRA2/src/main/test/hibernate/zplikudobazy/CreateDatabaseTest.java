@@ -1,4 +1,4 @@
-package hibernate;
+package hibernate.zplikudobazy;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hibernate.klasy.Band;
@@ -10,13 +10,11 @@ import org.junit.Test;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-
 import java.util.List;
 
 import static org.junit.Assert.*;
 
 public class CreateDatabaseTest {
-
     @Before
     public void setUp(){
 

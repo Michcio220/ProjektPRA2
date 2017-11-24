@@ -26,7 +26,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class ReadDatabase {
 
 
     //Wykonanie jednego z polecen
@@ -53,6 +53,8 @@ public class Main {
     }
 
     public static void main(String [] args){
+
+
 
         BasicConfigurator.configure();
         System.out.println("Start");
