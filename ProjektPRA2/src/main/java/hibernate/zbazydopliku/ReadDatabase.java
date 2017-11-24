@@ -28,7 +28,6 @@ import java.util.List;
 
 public class ReadDatabase {
 
-
     //Wykonanie jednego z polecen
     public static void wykonajQuery(EntityManager entityManager) throws Exception{
 
@@ -53,8 +52,6 @@ public class ReadDatabase {
     }
 
     public static void main(String [] args){
-
-
 
         BasicConfigurator.configure();
         System.out.println("Start");
