@@ -4975,3 +4975,1504 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums"
 2017-11-20 19:24:37 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
 2017-11-20 19:24:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
 2017-11-20 19:24:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 19:34:59 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 19:35:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 19:35:01 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 19:35:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 19:35:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 19:35:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 19:35:02 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 19:35:02 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 19:35:02 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 19:35:02 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 19:35:02 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 19:35:05 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 19:35:14 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 19:35:14 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@523424b5
+2017-11-22 20:18:47 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 20:18:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 20:18:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 20:18:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 20:18:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 20:18:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 20:18:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 20:18:48 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 20:18:48 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 20:18:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 20:18:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 20:18:49 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 20:19:02 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 20:19:02 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@11653e3b
+2017-11-22 20:19:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 20:19:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 20:19:27 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 20:19:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 20:19:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 20:19:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 20:19:28 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 20:19:28 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 20:19:28 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 20:19:28 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 20:19:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 20:19:29 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 20:19:41 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 20:19:41 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@11653e3b
+2017-11-22 20:19:42 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 20:19:43 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS drop constraint FK4erkdl5jehfyycvocbcpx8d4y]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS drop constraint FK4erkdl5jehfyycvocbcpx8d4y]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 20:19:43 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 20:19:43 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 20:19:43 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 20:19:44 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - table "albums" does not exist, skipping
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - table "albums_songs" does not exist, skipping
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - table "songs" does not exist, skipping
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "albums_pkey" for table "albums"
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "musicians_pkey" for table "musicians"
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "songs_pkey" for table "songs"
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2wfejecy4x3fcdqw2my61k8xc" for table "albums"
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_p16gldqm9ggskir7x4aokqer3" for table "albums_songs"
+2017-11-22 20:19:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:45 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_rpv34fhj1xna83w0fkpqbds7b" for table "musicians"
+2017-11-22 20:19:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 20:19:45 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_n7lg6p2lqs6sqau57v448veg6" for table "songs"
+2017-11-22 20:19:45 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6c6017b9'
+2017-11-22 20:19:45 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 20:20:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 20:20:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 20:20:45 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 20:20:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 20:20:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 20:20:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 20:20:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 20:20:46 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 20:20:46 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 20:20:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 20:20:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 20:20:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 20:20:56 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 20:20:56 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7808fb9
+2017-11-22 20:20:57 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 20:21:02 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 21:56:38 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 21:56:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 21:56:39 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 21:56:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 21:56:39 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 21:56:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 21:56:41 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 21:56:42 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 21:56:42 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 21:56:42 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 21:56:42 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 21:57:07 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 21:57:22 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 21:57:22 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c974942
+2017-11-22 21:57:23 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 21:57:25 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:57:25 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:57:25 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:57:25 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:57:25 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:25 WARN  SqlExceptionHelper:218 - table "albums_songs" does not exist, skipping
+2017-11-22 21:57:25 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:25 WARN  SqlExceptionHelper:218 - table "songs" does not exist, skipping
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "albums_pkey" for table "albums"
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "musicians_pkey" for table "musicians"
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "songs_pkey" for table "songs"
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2wfejecy4x3fcdqw2my61k8xc" for table "albums"
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_p16gldqm9ggskir7x4aokqer3" for table "albums_songs"
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:26 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_rpv34fhj1xna83w0fkpqbds7b" for table "musicians"
+2017-11-22 21:57:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:57:27 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_n7lg6p2lqs6sqau57v448veg6" for table "songs"
+2017-11-22 21:57:28 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@77c233af'
+2017-11-22 21:57:32 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 21:58:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 21:58:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 21:58:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 21:58:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 21:58:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 21:58:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 21:58:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 21:58:48 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 21:58:48 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 21:58:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 21:58:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 21:58:49 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 21:59:06 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 21:59:06 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c974942
+2017-11-22 21:59:07 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 21:59:07 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:59:07 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:59:07 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:59:07 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:218 - table "albums_songs" does not exist, skipping
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:218 - table "songs" does not exist, skipping
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:08 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "albums_pkey" for table "albums"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "musicians_pkey" for table "musicians"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "songs_pkey" for table "songs"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2wfejecy4x3fcdqw2my61k8xc" for table "albums"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_p16gldqm9ggskir7x4aokqer3" for table "albums_songs"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_rpv34fhj1xna83w0fkpqbds7b" for table "musicians"
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-22 21:59:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_n7lg6p2lqs6sqau57v448veg6" for table "songs"
+2017-11-22 21:59:10 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1b7332a7'
+2017-11-22 21:59:15 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:17:35 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:17:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:17:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 22:17:49 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 22:17:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 22:17:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 22:17:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 22:17:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 22:17:50 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:17:50 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 22:17:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 22:17:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 22:17:53 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 22:18:05 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 22:18:05 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@b91d8c4
+2017-11-22 22:18:06 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 22:18:07 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-22 22:18:09 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:19:58 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:19:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 22:19:59 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 22:19:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 22:19:59 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 22:19:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 22:19:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 22:19:59 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:19:59 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 22:19:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 22:19:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 22:20:00 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 22:20:10 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 22:20:10 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2b52c0d6
+2017-11-22 22:20:10 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 22:20:12 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-22 22:20:13 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:26:32 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:26:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 22:26:33 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 22:26:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 22:26:33 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 22:26:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 22:26:34 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 22:26:34 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:26:34 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 22:26:34 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 22:26:34 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 22:26:34 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 22:26:45 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 22:26:45 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6d91790b
+2017-11-22 22:26:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 22:26:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:29:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:29:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 22:29:49 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 22:29:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 22:29:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 22:29:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 22:29:49 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 22:29:50 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:29:50 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 22:29:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 22:29:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 22:29:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 22:29:59 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 22:29:59 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6d91790b
+2017-11-22 22:30:00 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 22:30:02 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:31:39 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-22 22:31:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-22 22:31:40 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-22 22:31:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-22 22:31:40 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-22 22:31:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-22 22:31:40 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-22 22:31:40 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-22 22:31:40 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-22 22:31:40 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-22 22:31:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-22 22:31:41 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-22 22:31:52 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-22 22:31:52 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6d91790b
+2017-11-22 22:31:52 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-22 22:31:56 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 21:59:52 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 21:59:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 21:59:54 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 21:59:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 21:59:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 21:59:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 21:59:55 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 21:59:55 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 21:59:55 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 21:59:55 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 21:59:55 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 22:00:00 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 22:00:16 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 22:00:16 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4d4960c8
+2017-11-23 22:00:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 22:00:18 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 22:00:18 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 22:00:18 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 22:00:18 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:218 - table "albums_songs" does not exist, skipping
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:218 - table "songs" does not exist, skipping
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "albums_pkey" for table "albums"
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "musicians_pkey" for table "musicians"
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "songs_pkey" for table "songs"
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2wfejecy4x3fcdqw2my61k8xc" for table "albums"
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_p16gldqm9ggskir7x4aokqer3" for table "albums_songs"
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_rpv34fhj1xna83w0fkpqbds7b" for table "musicians"
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 22:00:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_n7lg6p2lqs6sqau57v448veg6" for table "songs"
+2017-11-23 22:00:19 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@35a0e495'
+2017-11-23 22:00:23 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:29:14 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 22:29:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 22:29:15 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 22:29:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 22:29:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 22:29:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 22:29:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 22:29:16 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:29:16 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 22:29:16 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 22:29:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 22:29:22 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 22:29:30 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 22:29:30 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6f8f8a80
+2017-11-23 22:29:32 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 22:29:35 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:32:45 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 22:32:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 22:32:46 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 22:32:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 22:32:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 22:32:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 22:32:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 22:32:46 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:32:46 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 22:32:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 22:32:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 22:32:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 22:33:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 22:33:12 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 22:33:13 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 22:33:19 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:48:42 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 22:48:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 22:48:43 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 22:48:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 22:48:43 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 22:48:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 22:48:44 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 22:48:44 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 22:48:44 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 22:48:44 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 22:48:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 22:48:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 22:49:04 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 22:49:04 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 22:49:05 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 22:49:10 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:41:53 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:41:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:41:54 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:41:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:41:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:42:54 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:42:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:42:55 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:42:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:42:55 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:42:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:42:55 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:42:56 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:42:56 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:42:56 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:42:56 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:42:57 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:43:05 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:43:05 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5a4bef8
+2017-11-23 23:43:06 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:44:19 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:44:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:44:20 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:44:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:44:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:44:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:44:20 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:44:20 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:44:20 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:44:20 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:44:20 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:44:21 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:44:29 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:44:29 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@31cb96e1
+2017-11-23 23:44:29 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:44:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:44:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:44:48 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:44:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:44:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:44:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:44:49 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:44:49 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:44:49 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:44:49 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:44:49 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:44:50 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:44:58 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:44:58 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@31cb96e1
+2017-11-23 23:44:58 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:46:13 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:46:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:46:14 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:46:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:46:14 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:46:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:46:14 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:46:14 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:46:14 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:46:14 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:46:14 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:46:15 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:46:23 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:46:23 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 23:46:23 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:48:33 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:48:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:48:34 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:48:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:48:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:48:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:48:34 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:48:34 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:48:34 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:48:34 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:48:34 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:48:35 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:48:44 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:48:44 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 23:48:44 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:50:21 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:50:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:50:22 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:50:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:50:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:50:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:50:23 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:50:23 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:50:23 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:50:23 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:50:23 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:50:24 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:50:32 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:50:32 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 23:50:33 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:50:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:50:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:50:48 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:50:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:50:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:50:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:50:49 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:50:49 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:50:49 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:50:49 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:50:49 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:50:50 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:50:58 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:50:58 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-23 23:50:58 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:51:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:51:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:51:49 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:51:49 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:51:49 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:51:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:51:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:51:50 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:51:50 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:51:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:51:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:51:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:52:00 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:52:00 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7c974942
+2017-11-23 23:52:01 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:52:01 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS drop constraint FKnajvamjrwon5wipv7tnrm19w0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS drop constraint FKnajvamjrwon5wipv7tnrm19w0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 23:52:01 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKaa5wllkjrj079m2cu5g1jnd46]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 23:52:01 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table ALBUMS_SONGS drop constraint FKsd1psspwqcbmxfm3q4prmkcau]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 23:52:01 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FKiaob1tisyml1ops0v4wb5nsp0]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 23:52:01 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table SONGS drop constraint FK9bbq7i21lfeqied0r3r38it7d]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 17 more
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:218 - table "albums" does not exist, skipping
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:218 - table "albums_songs" does not exist, skipping
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:01 WARN  SqlExceptionHelper:218 - table "songs" does not exist, skipping
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "albums_pkey" for table "albums"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "musicians_pkey" for table "musicians"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "songs_pkey" for table "songs"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2wfejecy4x3fcdqw2my61k8xc" for table "albums"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_p16gldqm9ggskir7x4aokqer3" for table "albums_songs"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_rpv34fhj1xna83w0fkpqbds7b" for table "musicians"
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-23 23:52:02 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_n7lg6p2lqs6sqau57v448veg6" for table "songs"
+2017-11-23 23:52:03 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@37b56ac7'
+2017-11-23 23:52:06 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:52:40 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-23 23:52:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-23 23:52:41 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-23 23:52:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-23 23:52:41 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-23 23:52:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-23 23:52:42 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-23 23:52:42 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-23 23:52:42 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-23 23:52:42 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-23 23:52:42 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-23 23:52:43 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-23 23:52:51 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-23 23:52:51 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@31cb96e1
+2017-11-23 23:52:51 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-23 23:52:54 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 00:13:13 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 00:13:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 00:13:14 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 00:13:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 00:13:14 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 00:13:35 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 00:13:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 00:13:36 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 00:13:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 00:13:36 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 00:13:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 00:13:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 00:13:37 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 00:13:37 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 00:13:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 00:13:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 00:13:38 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 00:13:47 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 00:13:47 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b1bb3ab
+2017-11-24 00:13:47 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 00:13:49 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 00:13:50 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 00:14:15 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 00:14:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 00:14:15 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 00:14:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 00:14:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 00:14:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 00:14:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 00:14:16 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 00:14:16 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 00:14:16 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 00:14:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 00:14:17 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 00:14:26 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 00:14:26 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b1bb3ab
+2017-11-24 00:14:27 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 00:14:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 00:14:30 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:05:05 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:05:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:05:06 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:05:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:05:06 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:05:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:05:07 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:05:07 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:05:07 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:05:07 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:05:07 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:05:10 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:05:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:05:19 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@42a9a63e
+2017-11-24 09:05:20 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:05:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:05:25 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:29:49 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:29:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:29:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:29:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:29:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:30:36 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:30:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:30:36 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:30:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:30:36 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:30:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:30:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:30:37 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:30:37 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:30:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:30:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:30:38 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:30:46 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:30:46 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a567e72
+2017-11-24 09:30:46 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:30:50 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:31:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:31:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:31:26 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:31:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:31:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:31:57 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:31:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:31:58 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:31:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:31:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:31:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:31:58 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:31:58 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:31:58 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:31:58 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:31:58 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:32:00 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:32:08 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:32:08 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 09:32:08 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:32:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:32:11 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:33:22 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:33:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:33:22 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:33:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:33:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:33:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:33:23 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:33:23 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:33:23 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:33:23 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:33:23 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:33:24 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:33:32 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:33:32 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@cdc3aae
+2017-11-24 09:33:33 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:33:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:33:35 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:46:10 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:46:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:46:10 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:46:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:46:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:46:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:46:11 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:46:11 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:46:11 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:46:11 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:46:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:46:12 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:46:20 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:46:20 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@cdc3aae
+2017-11-24 09:46:21 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:46:22 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:46:23 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:47:25 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:47:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:47:26 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:47:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:47:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:47:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:47:27 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:47:27 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:47:27 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:47:27 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:47:27 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:47:29 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:47:37 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:47:37 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 09:47:38 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:47:40 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:47:41 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:48:39 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:48:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:48:40 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:48:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:48:40 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:48:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:48:40 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:48:40 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:48:40 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:48:40 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:48:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:48:42 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:48:50 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:48:51 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 09:48:52 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:48:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:48:54 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:50:10 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:50:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:50:11 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:50:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:50:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:50:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:50:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:50:12 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:50:12 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:50:12 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:50:12 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:50:13 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:50:22 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:50:22 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 09:50:23 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:50:24 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:50:24 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:50:55 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:50:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:50:55 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:50:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:50:55 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:50:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:50:56 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:50:56 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:50:56 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:50:56 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:50:56 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:50:58 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:51:08 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:51:08 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 09:51:09 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:51:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:51:10 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:53:53 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:53:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:53:53 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:53:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:53:53 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:53:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:53:54 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:53:54 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:53:54 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:53:54 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:53:54 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:53:54 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:54:03 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:54:03 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@cdc3aae
+2017-11-24 09:54:03 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:54:04 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:54:05 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:59:03 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 09:59:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 09:59:03 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 09:59:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 09:59:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 09:59:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 09:59:04 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 09:59:04 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 09:59:04 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 09:59:04 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 09:59:04 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 09:59:05 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 09:59:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 09:59:13 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b1bb3ab
+2017-11-24 09:59:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 09:59:15 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 09:59:16 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]

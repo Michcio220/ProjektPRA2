@@ -18,22 +18,41 @@ public class Song {
     @Column(name = "nazwa",nullable = false,unique = true)
     private String nazwa;
 
-    @Column(name = "rokWydania",nullable = false,length = 4)
-    private int rokWydania;
+    //Dlugosc utwory w sekundach
+    @JsonProperty("dlugosc")
+    @Column(name = "dlugosc",nullable = false)
+    private long dlugoscWSekundach;
 
     @JsonProperty("idwykonawcy")
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "idwykonawcy",referencedColumnName = "id")
+    @ManyToOne(cascade = CascadeType.ALL)
     private Band band;
+
+    @JsonProperty("idalbumu")
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Album album;
+
 
     public Song() {
     }
 
-    public Song(String nazwa, int rokWydania,Band bad) {
+    public Song(String nazwa, long dlugosc,Band bad,Album album) {
         this.nazwa = nazwa;
-        this.rokWydania = rokWydania;
+        this.dlugoscWSekundach = dlugosc;
         this.band = bad;
+        this.album = album;
     }
+
+    public int getIdUtwory() { return idUtwory; }
+
+    public void setIdUtwory(int idUtwory) { this.idUtwory = idUtwory; }
+
+    public long getDlugosc() { return dlugoscWSekundach; }
+
+    public void setDlugosc(long dlugosc) { this.dlugoscWSekundach = dlugosc; }
+
+    public Album getAlbum() { return album; }
+
+    public void setAlbum(Album album) { this.album = album; }
 
     public Band getBand() { return band; }
 
@@ -53,11 +72,4 @@ public class Song {
         this.nazwa = nazwa;
     }
 
-    public int getRokWydania() {
-        return rokWydania;
-    }
-
-    public void setRokWydania(int rokWydania) {
-        this.rokWydania = rokWydania;
-    }
 }

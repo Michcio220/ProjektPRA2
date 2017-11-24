@@ -6,40 +6,42 @@
         <rok>2013</rok>
         <liczba>2</liczba>
         <typ>HipHop</typ>
-        <songs>
-            <songs>
-                <refIdSong>1</refIdSong>
-                <nazwa>Devil's Wedding</nazwa>
-                <rokWydania>2013</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>1</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>2</refIdSong>
-                <nazwa>Bacchus</nazwa>
-                <rokWydania>2014</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>1</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>3</refIdSong>
-                <nazwa>MONSTER'S ZOO</nazwa>
-                <rokWydania>2014</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>1</idwykonawcy>
-            </songs>
-        </songs>
         <albums>
             <albums>
                 <refIdAlbum>1</refIdAlbum>
                 <idAlbumu>0</idAlbumu>
-                <nazwaAlbumu>FAKE BOOK</nazwaAlbumu>
                 <rokwydania>2013</rokwydania>
+                <idwykonawcy>1</idwykonawcy>
                 <songs>
-                    <songs>1</songs>
-                    <songs>2</songs>
-                    <songs>3</songs>
+                    <songs>
+                        <refIdSong>1</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Devil's Wedding</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>281</dlugosc>
+                        <idwykonawcy>1</idwykonawcy>
+                        <idalbumu>1</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>2</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Bacchus</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>272</dlugosc>
+                        <idwykonawcy>1</idwykonawcy>
+                        <idalbumu>1</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>3</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>MONSTER'S ZOO</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>262</dlugosc>
+                        <idwykonawcy>1</idwykonawcy>
+                        <idalbumu>1</idalbumu>
+                    </songs>
                 </songs>
+                <nazwaAlbumu>FAKE BOOK</nazwaAlbumu>
             </albums>
         </albums>
     </item>
@@ -50,40 +52,42 @@
         <rok>1960</rok>
         <liczba>4</liczba>
         <typ>Rock</typ>
-        <songs>
-            <songs>
-                <refIdSong>4</refIdSong>
-                <nazwa>Two Of Us</nazwa>
-                <rokWydania>1970</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>2</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>5</refIdSong>
-                <nazwa>Dig A Pony</nazwa>
-                <rokWydania>1970</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>2</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>6</refIdSong>
-                <nazwa>Across The Universe</nazwa>
-                <rokWydania>1970</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>2</idwykonawcy>
-            </songs>
-        </songs>
         <albums>
             <albums>
                 <refIdAlbum>2</refIdAlbum>
                 <idAlbumu>0</idAlbumu>
-                <nazwaAlbumu>Let It Be</nazwaAlbumu>
                 <rokwydania>1970</rokwydania>
+                <idwykonawcy>2</idwykonawcy>
                 <songs>
-                    <songs>4</songs>
-                    <songs>5</songs>
-                    <songs>6</songs>
+                    <songs>
+                        <refIdSong>4</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Two Of Us</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>216</dlugosc>
+                        <idwykonawcy>2</idwykonawcy>
+                        <idalbumu>2</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>5</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Dig A Pony</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>235</dlugosc>
+                        <idwykonawcy>2</idwykonawcy>
+                        <idalbumu>2</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>6</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Across The Universe</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>228</dlugosc>
+                        <idwykonawcy>2</idwykonawcy>
+                        <idalbumu>2</idalbumu>
+                    </songs>
                 </songs>
+                <nazwaAlbumu>Let It Be</nazwaAlbumu>
             </albums>
         </albums>
     </item>
@@ -93,42 +97,137 @@
         <nazwa>Pink Floyd</nazwa>
         <rok>1965</rok>
         <liczba>5</liczba>
-        <typ> ProgressiveRock</typ>
-        <songs>
-            <songs>
-                <refIdSong>7</refIdSong>
-                <nazwa>The Thin Ice</nazwa>
-                <rokWydania>1979</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>3</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>8</refIdSong>
-                <nazwa>Another Brick In The Wall,Part 1</nazwa>
-                <rokWydania>1979</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>3</idwykonawcy>
-            </songs>
-            <songs>
-                <refIdSong>9</refIdSong>
-                <nazwa>Goodbye Blue Sky</nazwa>
-                <rokWydania>1979</rokWydania>
-                <idSong>0</idSong>
-                <idwykonawcy>3</idwykonawcy>
-            </songs>
-        </songs>
+        <typ> Progressive Rock</typ>
         <albums>
             <albums>
                 <refIdAlbum>3</refIdAlbum>
                 <idAlbumu>0</idAlbumu>
-                <nazwaAlbumu>The Wall</nazwaAlbumu>
                 <rokwydania>1979</rokwydania>
+                <idwykonawcy>3</idwykonawcy>
                 <songs>
-                    <songs>7</songs>
-                    <songs>8</songs>
-                    <songs>9</songs>
+                    <songs>
+                        <refIdSong>7</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>The Thin Ice</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>149</dlugosc>
+                        <idwykonawcy>3</idwykonawcy>
+                        <idalbumu>3</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>8</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Another Brick In The Wall,Part 1</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>192</dlugosc>
+                        <idwykonawcy>3</idwykonawcy>
+                        <idalbumu>3</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>9</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Goodbye Blue Sky</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>167</dlugosc>
+                        <idwykonawcy>3</idwykonawcy>
+                        <idalbumu>3</idalbumu>
+                    </songs>
                 </songs>
+                <nazwaAlbumu>The Wall</nazwaAlbumu>
+            </albums>
+        </albums>
+    </item>
+    <item>
+        <refId>4</refId>
+        <bandId>0</bandId>
+        <nazwa>System Of Down</nazwa>
+        <rok>1994</rok>
+        <liczba>5</liczba>
+        <typ>Hard Rock</typ>
+        <albums>
+            <albums>
+                <refIdAlbum>4</refIdAlbum>
+                <idAlbumu>0</idAlbumu>
+                <rokwydania>2005</rokwydania>
+                <idwykonawcy>4</idwykonawcy>
+                <songs>
+                    <songs>
+                        <refIdSong>10</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Attack</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>186</dlugosc>
+                        <idwykonawcy>4</idwykonawcy>
+                        <idalbumu>4</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>11</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Dreaming</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>239</dlugosc>
+                        <idwykonawcy>4</idwykonawcy>
+                        <idalbumu>4</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>12</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Kill Rock'n Roll</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>147</dlugosc>
+                        <idwykonawcy>4</idwykonawcy>
+                        <idalbumu>4</idalbumu>
+                    </songs>
+                </songs>
+                <nazwaAlbumu>Hypnotize</nazwaAlbumu>
+            </albums>
+        </albums>
+    </item>
+    <item>
+        <refId>5</refId>
+        <bandId>0</bandId>
+        <nazwa>Led Zeppelin</nazwa>
+        <rok>1968</rok>
+        <liczba>4</liczba>
+        <typ>Blues Rock</typ>
+        <albums>
+            <albums>
+                <refIdAlbum>5</refIdAlbum>
+                <idAlbumu>0</idAlbumu>
+                <rokwydania>2012</rokwydania>
+                <idwykonawcy>5</idwykonawcy>
+                <songs>
+                    <songs>
+                        <refIdSong>13</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Good Times Bad Times</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>166</dlugosc>
+                        <idwykonawcy>5</idwykonawcy>
+                        <idalbumu>5</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>14</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Ramble On</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>263</dlugosc>
+                        <idwykonawcy>5</idwykonawcy>
+                        <idalbumu>5</idalbumu>
+                    </songs>
+                    <songs>
+                        <refIdSong>15</refIdSong>
+                        <idUtwory>0</idUtwory>
+                        <nazwa>Black Dog</nazwa>
+                        <idSong>0</idSong>
+                        <dlugosc>295</dlugosc>
+                        <idwykonawcy>5</idwykonawcy>
+                        <idalbumu>5</idalbumu>
+                    </songs>
+                </songs>
+                <nazwaAlbumu>Celebration Day</nazwaAlbumu>
             </albums>
         </albums>
     </item>
 </ArrayList>
+

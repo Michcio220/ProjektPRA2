@@ -2,6 +2,7 @@ package hibernate.polecenia;
 
 import hibernate.klasy.Band;
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
@@ -11,22 +12,49 @@ public class Queries {
 
     public Queries(EntityManager entityManager){this.entityManager = entityManager;}
 
+    //Poleceni nr.1
     public List<Band> getBandsByName(){
-
         TypedQuery<Band> query = entityManager.createQuery(
                 "SELECT c FROM Band c", Band.class);
         return query.getResultList();
-
     }
 
+    //Polecenie nr.2
     public List<Band> getBandssByType(String type){
         TypedQuery<Band> query = entityManager.createQuery(
                 "SELECT c FROM Band c WHERE c.typ LIKE :type ", Band.class);
         return query.setParameter("type",type).getResultList();
     }
 
-//    public List<Band> getBandBySongs{
-//          TypedQuery<Band> query = entityManager.createQuery()
-//    }
+    //Polecenie nr.3
+    public List<Band> getBandBySongs(String nazwa){
+       Query query = entityManager.createQuery(
+                "SELECT c.band FROM Song c WHERE c.band.nazwa LIKE :nazwa");
+       return  query.setParameter("nazwa",nazwa).getResultList();
+    }
+
+    //Polecenie nr.4
+    public List<Band> getBandBySongName(String album){
+        Query query = entityManager.createQuery(
+                "SELECT a FROM Album a WHERE a.nazwaAlbumu LIKE :album "
+        );
+        return  query.setParameter("album",album).getResultList();
+    }
+
+    //Polecenie nr.5
+    public List<Band> getBandByPage(int number){
+        Query query = entityManager.createQuery(
+                "SELECT count(b) FROM Band b");
+        long countResult = (long)query.getSingleResult();
+        int pageSize = 10;
+        int pageNumber = (int)((countResult/pageSize) +1);
+
+        if(number > pageNumber){ number = pageNumber;}
+
+        query.setFirstResult((number - 1) * pageSize);
+        query.setMaxResults(pageSize);
+
+        return query.getResultList();
+    }
 
 }

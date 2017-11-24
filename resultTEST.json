@@ -1,0 +1,196 @@
+[ {
+  "refId" : 1,
+  "bandId" : 51,
+  "nazwa" : "FAKE TYPE",
+  "rok" : 2013,
+  "liczba" : 2,
+  "typ" : "HipHop",
+  "albums" : [ {
+    "refIdAlbum" : 1,
+    "idAlbumu" : 52,
+    "rokwydania" : 2013,
+    "idwykonawcy" : 1,
+    "songs" : [ {
+      "refIdSong" : 1,
+      "idUtwory" : 53,
+      "nazwa" : "Devil's Wedding",
+      "idSong" : 53,
+      "dlugosc" : 281,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    }, {
+      "refIdSong" : 2,
+      "idUtwory" : 54,
+      "nazwa" : "Bacchus",
+      "idSong" : 54,
+      "dlugosc" : 272,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    }, {
+      "refIdSong" : 3,
+      "idUtwory" : 55,
+      "nazwa" : "MONSTER'S ZOO",
+      "idSong" : 55,
+      "dlugosc" : 262,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    } ],
+    "nazwaAlbumu" : "FAKE BOOK"
+  } ]
+}, {
+  "refId" : 2,
+  "bandId" : 56,
+  "nazwa" : "The Beatles",
+  "rok" : 1960,
+  "liczba" : 4,
+  "typ" : "Rock",
+  "albums" : [ {
+    "refIdAlbum" : 2,
+    "idAlbumu" : 57,
+    "rokwydania" : 1970,
+    "idwykonawcy" : 2,
+    "songs" : [ {
+      "refIdSong" : 4,
+      "idUtwory" : 58,
+      "nazwa" : "Two Of Us",
+      "idSong" : 58,
+      "dlugosc" : 216,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    }, {
+      "refIdSong" : 5,
+      "idUtwory" : 59,
+      "nazwa" : "Dig A Pony",
+      "idSong" : 59,
+      "dlugosc" : 235,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    }, {
+      "refIdSong" : 6,
+      "idUtwory" : 60,
+      "nazwa" : "Across The Universe",
+      "idSong" : 60,
+      "dlugosc" : 228,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    } ],
+    "nazwaAlbumu" : "Let It Be"
+  } ]
+}, {
+  "refId" : 3,
+  "bandId" : 61,
+  "nazwa" : "Pink Floyd",
+  "rok" : 1965,
+  "liczba" : 5,
+  "typ" : " Progressive Rock",
+  "albums" : [ {
+    "refIdAlbum" : 3,
+    "idAlbumu" : 62,
+    "rokwydania" : 1979,
+    "idwykonawcy" : 3,
+    "songs" : [ {
+      "refIdSong" : 7,
+      "idUtwory" : 63,
+      "nazwa" : "The Thin Ice",
+      "idSong" : 63,
+      "dlugosc" : 149,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    }, {
+      "refIdSong" : 8,
+      "idUtwory" : 64,
+      "nazwa" : "Another Brick In The Wall,Part 1",
+      "idSong" : 64,
+      "dlugosc" : 192,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    }, {
+      "refIdSong" : 9,
+      "idUtwory" : 65,
+      "nazwa" : "Goodbye Blue Sky",
+      "idSong" : 65,
+      "dlugosc" : 167,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    } ],
+    "nazwaAlbumu" : "The Wall"
+  } ]
+}, {
+  "refId" : 4,
+  "bandId" : 66,
+  "nazwa" : "System Of Down",
+  "rok" : 1994,
+  "liczba" : 5,
+  "typ" : "Hard Rock",
+  "albums" : [ {
+    "refIdAlbum" : 4,
+    "idAlbumu" : 67,
+    "rokwydania" : 2005,
+    "idwykonawcy" : 4,
+    "songs" : [ {
+      "refIdSong" : 10,
+      "idUtwory" : 68,
+      "nazwa" : "Attack",
+      "idSong" : 68,
+      "dlugosc" : 186,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    }, {
+      "refIdSong" : 11,
+      "idUtwory" : 69,
+      "nazwa" : "Dreaming",
+      "idSong" : 69,
+      "dlugosc" : 239,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    }, {
+      "refIdSong" : 12,
+      "idUtwory" : 70,
+      "nazwa" : "Kill Rock'n Roll",
+      "idSong" : 70,
+      "dlugosc" : 147,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    } ],
+    "nazwaAlbumu" : "Hypnotize"
+  } ]
+}, {
+  "refId" : 5,
+  "bandId" : 71,
+  "nazwa" : "Led Zeppelin",
+  "rok" : 1968,
+  "liczba" : 4,
+  "typ" : "Blues Rock",
+  "albums" : [ {
+    "refIdAlbum" : 5,
+    "idAlbumu" : 72,
+    "rokwydania" : 2012,
+    "idwykonawcy" : 5,
+    "songs" : [ {
+      "refIdSong" : 13,
+      "idUtwory" : 73,
+      "nazwa" : "Good Times Bad Times",
+      "idSong" : 73,
+      "dlugosc" : 166,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    }, {
+      "refIdSong" : 14,
+      "idUtwory" : 74,
+      "nazwa" : "Ramble On",
+      "idSong" : 74,
+      "dlugosc" : 263,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    }, {
+      "refIdSong" : 15,
+      "idUtwory" : 75,
+      "nazwa" : "Black Dog",
+      "idSong" : 75,
+      "dlugosc" : 295,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    } ],
+    "nazwaAlbumu" : "Celebration Day"
+  } ]
+} ]

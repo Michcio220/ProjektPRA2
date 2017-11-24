@@ -1,6 +1,8 @@
 package hibernate.klasy;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -10,6 +12,7 @@ import java.util.List;
 
 @JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,
         property="refIdAlbum", scope=Album.class)
+@JsonPropertyOrder({"idAlbumu", "nazwa", "rokwydania", "idwykonawcy", "songs"})
 @Entity
 @Table(name = "ALBUMS")
 public class Album {
@@ -24,15 +27,21 @@ public class Album {
     @Column(name = "rok_wyd")
     private int rokwydania;
 
+    @JsonProperty("idwykonawcy")
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "idwykonawcy",nullable = false)
+    private Band band;
+
     @OneToMany(cascade = CascadeType.ALL)
     @JoinTable
     private List<Song> songs = new ArrayList<Song>();
 
     public Album() { }
 
-    public Album(String nazwaAlbumu, int rokwydania) {
+    public Album(String nazwaAlbumu, int rokwydania,Band band) {
         this.nazwaAlbumu = nazwaAlbumu;
         this.rokwydania = rokwydania;
+        this.band = band;
     }
 
     public List<Song> getSongs() { return songs; }

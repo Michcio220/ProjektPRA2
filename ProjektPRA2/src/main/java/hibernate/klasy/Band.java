@@ -1,9 +1,14 @@
 package hibernate.klasy;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,24 +21,19 @@ public class Band {
     @Column(name= "id")
     private int bandId;
 
-    @Column(name = "nazwazespolu",unique = true)
+    @Column(name = "nazwazespolu",unique = true,nullable = false)
     private String nazwa;
 
-    @Column(name = "rokZalozenia")
+    @Column(name = "rokZalozenia",nullable = false)
     private int rok;
 
-    @Column(name = "liczbaCzlonkow")
+    @Column(name = "liczbaCzlonkow",nullable = false)
     private int liczba;
 
-    @Column(name = "typMuzyki")
+    @Column(name = "typMuzyki",nullable = false)
     private String typ;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable
-    private List<Song> songs = new ArrayList<Song>();
-
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinTable
+    @OneToMany(mappedBy = "band",cascade = CascadeType.ALL)
     private List<Album> albums = new ArrayList<Album>();
 
     public Band() {
@@ -46,13 +46,9 @@ public class Band {
         this.typ = typ;
     }
 
-    public void setSongs(List<Song> songs) { this.songs = songs; }
-
     public void setAlbums(List<Album> albums) { this.albums = albums; }
 
     public List<Album> getAlbums() { return albums; }
-
-    public List<Song> getSongs() { return songs; }
 
     public int getBandId() { return bandId; }
 

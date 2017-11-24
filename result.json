@@ -1,100 +1,40 @@
 [ {
-  "refId" : 1,
-  "bandId" : 0,
-  "nazwa" : "FAKE TYPE",
-  "rok" : 2013,
-  "liczba" : 2,
-  "typ" : "HipHop",
+  "refIdAlbum" : 1,
+  "idAlbumu" : 57,
+  "rokwydania" : 1970,
+  "idwykonawcy" : {
+    "refId" : 1,
+    "bandId" : 56,
+    "nazwa" : "The Beatles",
+    "rok" : 1960,
+    "liczba" : 4,
+    "typ" : "Rock",
+    "albums" : [ 1 ]
+  },
   "songs" : [ {
     "refIdSong" : 1,
-    "nazwa" : "Devil's Wedding",
-    "rokWydania" : 2013,
-    "idSong" : 0,
-    "idwykonawcy" : 1
+    "idUtwory" : 58,
+    "nazwa" : "Two Of Us",
+    "dlugosc" : 216,
+    "idSong" : 58,
+    "idwykonawcy" : 1,
+    "idalbumu" : 1
   }, {
     "refIdSong" : 2,
-    "nazwa" : "Bacchus",
-    "rokWydania" : 2014,
-    "idSong" : 0,
-    "idwykonawcy" : 1
+    "idUtwory" : 59,
+    "nazwa" : "Dig A Pony",
+    "dlugosc" : 235,
+    "idSong" : 59,
+    "idwykonawcy" : 1,
+    "idalbumu" : 1
   }, {
     "refIdSong" : 3,
-    "nazwa" : "MONSTER'S ZOO",
-    "rokWydania" : 2014,
-    "idSong" : 0,
-    "idwykonawcy" : 1
-  } ],
-  "albums" : [ {
-    "refIdAlbum" : 1,
-    "idAlbumu" : 0,
-    "nazwaAlbumu" : "FAKE BOOK",
-    "rokwydania" : 2013,
-    "songs" : [ 1, 2, 3 ]
-  } ]
-}, {
-  "refId" : 2,
-  "bandId" : 0,
-  "nazwa" : "The Beatles",
-  "rok" : 1960,
-  "liczba" : 4,
-  "typ" : "Rock",
-  "songs" : [ {
-    "refIdSong" : 4,
-    "nazwa" : "Two Of Us",
-    "rokWydania" : 1970,
-    "idSong" : 0,
-    "idwykonawcy" : 2
-  }, {
-    "refIdSong" : 5,
-    "nazwa" : "Dig A Pony",
-    "rokWydania" : 1970,
-    "idSong" : 0,
-    "idwykonawcy" : 2
-  }, {
-    "refIdSong" : 6,
+    "idUtwory" : 60,
     "nazwa" : "Across The Universe",
-    "rokWydania" : 1970,
-    "idSong" : 0,
-    "idwykonawcy" : 2
+    "dlugosc" : 228,
+    "idSong" : 60,
+    "idwykonawcy" : 1,
+    "idalbumu" : 1
   } ],
-  "albums" : [ {
-    "refIdAlbum" : 2,
-    "idAlbumu" : 0,
-    "nazwaAlbumu" : "Let It Be",
-    "rokwydania" : 1970,
-    "songs" : [ 4, 5, 6 ]
-  } ]
-}, {
-  "refId" : 3,
-  "bandId" : 0,
-  "nazwa" : "Pink Floyd",
-  "rok" : 1965,
-  "liczba" : 5,
-  "typ" : " ProgressiveRock",
-  "songs" : [ {
-    "refIdSong" : 7,
-    "nazwa" : "The Thin Ice",
-    "rokWydania" : 1979,
-    "idSong" : 0,
-    "idwykonawcy" : 3
-  }, {
-    "refIdSong" : 8,
-    "nazwa" : "Another Brick In The Wall,Part 1",
-    "rokWydania" : 1979,
-    "idSong" : 0,
-    "idwykonawcy" : 3
-  }, {
-    "refIdSong" : 9,
-    "nazwa" : "Goodbye Blue Sky",
-    "rokWydania" : 1979,
-    "idSong" : 0,
-    "idwykonawcy" : 3
-  } ],
-  "albums" : [ {
-    "refIdAlbum" : 3,
-    "idAlbumu" : 0,
-    "nazwaAlbumu" : "The Wall",
-    "rokwydania" : 1979,
-    "songs" : [ 7, 8, 9 ]
-  } ]
+  "nazwaAlbumu" : "Let It Be"
 } ]
