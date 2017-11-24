@@ -32,6 +32,9 @@ public class ObjectsCreatorTest {
         List<Band> bandsJson;
         List<Band> bandsXml;
 
+        List<Band> expectedJson;
+        List<Band> expectedXml;
+
         ObjectMapper jsonMapper = new ObjectMapper();
         ObjectMapper xmlMapper = new XmlMapper();
 
@@ -50,9 +53,6 @@ public class ObjectsCreatorTest {
         for(Band b : bandsJson){
             assertNotNull(b.getNazwa());
             assertNotNull(b.getTyp());
-            for(Album a : b.getAlbums()){
-                assertNotNull(a.getNazwaAlbumu());
-            }
         }
     }
 

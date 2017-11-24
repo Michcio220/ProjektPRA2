@@ -1,6 +1,9 @@
 package hibernate.polecenia;
 
+import hibernate.klasy.Album;
 import hibernate.klasy.Band;
+import hibernate.klasy.Song;
+
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
@@ -29,23 +32,23 @@ public class Queries {
     //Polecenie nr.3
     public List<Band> getBandBySongs(String nazwa){
        Query query = entityManager.createQuery(
-                "SELECT c.band FROM Song c WHERE c.band.nazwa LIKE :nazwa");
-       return  query.setParameter("nazwa",nazwa).getResultList();
+                "SELECT c.band FROM Song c WHERE c.band.nazwa LIKE :nazwa",Song.class);
+       return query.setParameter("nazwa",nazwa).getResultList();
     }
 
     //Polecenie nr.4
     public List<Band> getBandBySongName(String album){
         Query query = entityManager.createQuery(
-                "SELECT a FROM Album a WHERE a.nazwaAlbumu LIKE :album "
+                "SELECT a FROM Album a WHERE a.nazwaAlbumu LIKE :album ", Album.class
         );
-        return  query.setParameter("album",album).getResultList();
+        return query.setParameter("album",album).getResultList();
     }
 
     //Polecenie nr.5
     public List<Band> getBandByPage(int number){
         //first query
         Query query = entityManager.createQuery(
-                "SELECT count(b) FROM Band b");
+                "SELECT count(b) FROM Band b" , Band.class);
         long countResult = (long)query.getSingleResult();
 
         //second query

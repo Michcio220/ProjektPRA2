@@ -17,8 +17,6 @@ import static org.junit.Assert.*;
 
 public class CreateDatabaseTest {
 
-
-
     @Before
     public void setUp(){
 

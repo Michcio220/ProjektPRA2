@@ -1,37 +1,37 @@
 [ {
   "refId" : 1,
-  "bandId" : 51,
+  "bandId" : 101,
   "nazwa" : "FAKE TYPE",
   "rok" : 2013,
   "liczba" : 2,
   "typ" : "HipHop",
   "albums" : [ {
     "refIdAlbum" : 1,
-    "idAlbumu" : 52,
+    "idAlbumu" : 102,
     "rokwydania" : 2013,
     "idwykonawcy" : 1,
     "songs" : [ {
       "refIdSong" : 1,
-      "idUtwory" : 53,
+      "idUtwory" : 103,
       "nazwa" : "Devil's Wedding",
       "dlugosc" : 281,
-      "idSong" : 53,
+      "idSong" : 103,
       "idwykonawcy" : 1,
       "idalbumu" : 1
     }, {
       "refIdSong" : 2,
-      "idUtwory" : 54,
+      "idUtwory" : 104,
       "nazwa" : "Bacchus",
       "dlugosc" : 272,
-      "idSong" : 54,
+      "idSong" : 104,
       "idwykonawcy" : 1,
       "idalbumu" : 1
     }, {
       "refIdSong" : 3,
-      "idUtwory" : 55,
+      "idUtwory" : 105,
       "nazwa" : "MONSTER'S ZOO",
       "dlugosc" : 262,
-      "idSong" : 55,
+      "idSong" : 105,
       "idwykonawcy" : 1,
       "idalbumu" : 1
     } ],
@@ -39,38 +39,38 @@
   } ]
 }, {
   "refId" : 2,
-  "bandId" : 56,
+  "bandId" : 106,
   "nazwa" : "The Beatles",
   "rok" : 1960,
   "liczba" : 4,
   "typ" : "Rock",
   "albums" : [ {
     "refIdAlbum" : 2,
-    "idAlbumu" : 57,
+    "idAlbumu" : 107,
     "rokwydania" : 1970,
     "idwykonawcy" : 2,
     "songs" : [ {
       "refIdSong" : 4,
-      "idUtwory" : 58,
+      "idUtwory" : 108,
       "nazwa" : "Two Of Us",
       "dlugosc" : 216,
-      "idSong" : 58,
+      "idSong" : 108,
       "idwykonawcy" : 2,
       "idalbumu" : 2
     }, {
       "refIdSong" : 5,
-      "idUtwory" : 59,
+      "idUtwory" : 109,
       "nazwa" : "Dig A Pony",
       "dlugosc" : 235,
-      "idSong" : 59,
+      "idSong" : 109,
       "idwykonawcy" : 2,
       "idalbumu" : 2
     }, {
       "refIdSong" : 6,
-      "idUtwory" : 60,
+      "idUtwory" : 110,
       "nazwa" : "Across The Universe",
       "dlugosc" : 228,
-      "idSong" : 60,
+      "idSong" : 110,
       "idwykonawcy" : 2,
       "idalbumu" : 2
     } ],
@@ -78,38 +78,38 @@
   } ]
 }, {
   "refId" : 3,
-  "bandId" : 61,
+  "bandId" : 111,
   "nazwa" : "Pink Floyd",
   "rok" : 1965,
   "liczba" : 5,
   "typ" : " Progressive Rock",
   "albums" : [ {
     "refIdAlbum" : 3,
-    "idAlbumu" : 62,
+    "idAlbumu" : 112,
     "rokwydania" : 1979,
     "idwykonawcy" : 3,
     "songs" : [ {
       "refIdSong" : 7,
-      "idUtwory" : 63,
+      "idUtwory" : 113,
       "nazwa" : "The Thin Ice",
       "dlugosc" : 149,
-      "idSong" : 63,
+      "idSong" : 113,
       "idwykonawcy" : 3,
       "idalbumu" : 3
     }, {
       "refIdSong" : 8,
-      "idUtwory" : 64,
+      "idUtwory" : 114,
       "nazwa" : "Another Brick In The Wall,Part 1",
       "dlugosc" : 192,
-      "idSong" : 64,
+      "idSong" : 114,
       "idwykonawcy" : 3,
       "idalbumu" : 3
     }, {
       "refIdSong" : 9,
-      "idUtwory" : 65,
+      "idUtwory" : 115,
       "nazwa" : "Goodbye Blue Sky",
       "dlugosc" : 167,
-      "idSong" : 65,
+      "idSong" : 115,
       "idwykonawcy" : 3,
       "idalbumu" : 3
     } ],
@@ -117,38 +117,38 @@
   } ]
 }, {
   "refId" : 4,
-  "bandId" : 66,
+  "bandId" : 116,
   "nazwa" : "System Of Down",
   "rok" : 1994,
   "liczba" : 5,
   "typ" : "Hard Rock",
   "albums" : [ {
     "refIdAlbum" : 4,
-    "idAlbumu" : 67,
+    "idAlbumu" : 117,
     "rokwydania" : 2005,
     "idwykonawcy" : 4,
     "songs" : [ {
       "refIdSong" : 10,
-      "idUtwory" : 68,
+      "idUtwory" : 118,
       "nazwa" : "Attack",
       "dlugosc" : 186,
-      "idSong" : 68,
+      "idSong" : 118,
       "idwykonawcy" : 4,
       "idalbumu" : 4
     }, {
       "refIdSong" : 11,
-      "idUtwory" : 69,
+      "idUtwory" : 119,
       "nazwa" : "Dreaming",
       "dlugosc" : 239,
-      "idSong" : 69,
+      "idSong" : 119,
       "idwykonawcy" : 4,
       "idalbumu" : 4
     }, {
       "refIdSong" : 12,
-      "idUtwory" : 70,
+      "idUtwory" : 120,
       "nazwa" : "Kill Rock'n Roll",
       "dlugosc" : 147,
-      "idSong" : 70,
+      "idSong" : 120,
       "idwykonawcy" : 4,
       "idalbumu" : 4
     } ],
@@ -156,38 +156,38 @@
   } ]
 }, {
   "refId" : 5,
-  "bandId" : 71,
+  "bandId" : 121,
   "nazwa" : "Led Zeppelin",
   "rok" : 1968,
   "liczba" : 4,
   "typ" : "Blues Rock",
   "albums" : [ {
     "refIdAlbum" : 5,
-    "idAlbumu" : 72,
+    "idAlbumu" : 122,
     "rokwydania" : 2012,
     "idwykonawcy" : 5,
     "songs" : [ {
       "refIdSong" : 13,
-      "idUtwory" : 73,
+      "idUtwory" : 123,
       "nazwa" : "Good Times Bad Times",
       "dlugosc" : 166,
-      "idSong" : 73,
+      "idSong" : 123,
       "idwykonawcy" : 5,
       "idalbumu" : 5
     }, {
       "refIdSong" : 14,
-      "idUtwory" : 74,
+      "idUtwory" : 124,
       "nazwa" : "Ramble On",
       "dlugosc" : 263,
-      "idSong" : 74,
+      "idSong" : 124,
       "idwykonawcy" : 5,
       "idalbumu" : 5
     }, {
       "refIdSong" : 15,
-      "idUtwory" : 75,
+      "idUtwory" : 125,
       "nazwa" : "Black Dog",
       "dlugosc" : 295,
-      "idSong" : 75,
+      "idSong" : 125,
       "idwykonawcy" : 5,
       "idalbumu" : 5
     } ],

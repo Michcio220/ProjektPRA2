@@ -33,7 +33,7 @@ public class Main {
     public static void wykonajQuery(EntityManager entityManager) throws Exception{
 
         Queries query = new Queries(entityManager);
-        List<Band> bands = query.getBandByPage(3);
+        List<Band> bands = query.getBandByPage(2);
         ObjectMapper jsonMapper = new ObjectMapper();
         jsonMapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true);
 

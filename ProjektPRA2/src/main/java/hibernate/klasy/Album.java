@@ -21,10 +21,10 @@ public class Album {
     @Column(name = "idAlbumu")
     private int idAlbumu;
 
-    @Column(name = "nazwa", unique = true)
+    @Column(name = "nazwa", unique = true,nullable = false)
     private String nazwaAlbumu;
 
-    @Column(name = "rok_wyd")
+    @Column(name = "rok_wyd",nullable = false)
     private int rokwydania;
 
     @JsonProperty("idwykonawcy")

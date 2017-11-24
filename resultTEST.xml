@@ -1,7 +1,7 @@
 <ArrayList>
   <item>
     <refId>1</refId>
-    <bandId>51</bandId>
+    <bandId>101</bandId>
     <nazwa>FAKE TYPE</nazwa>
     <rok>2013</rok>
     <liczba>2</liczba>
@@ -9,34 +9,34 @@
     <albums>
       <albums>
         <refIdAlbum>1</refIdAlbum>
-        <idAlbumu>52</idAlbumu>
+        <idAlbumu>102</idAlbumu>
         <rokwydania>2013</rokwydania>
         <idwykonawcy>1</idwykonawcy>
         <songs>
           <songs>
             <refIdSong>1</refIdSong>
-            <idUtwory>53</idUtwory>
+            <idUtwory>103</idUtwory>
             <nazwa>Devil's Wedding</nazwa>
-            <idSong>53</idSong>
             <dlugosc>281</dlugosc>
+            <idSong>103</idSong>
             <idwykonawcy>1</idwykonawcy>
             <idalbumu>1</idalbumu>
           </songs>
           <songs>
             <refIdSong>2</refIdSong>
-            <idUtwory>54</idUtwory>
+            <idUtwory>104</idUtwory>
             <nazwa>Bacchus</nazwa>
-            <idSong>54</idSong>
             <dlugosc>272</dlugosc>
+            <idSong>104</idSong>
             <idwykonawcy>1</idwykonawcy>
             <idalbumu>1</idalbumu>
           </songs>
           <songs>
             <refIdSong>3</refIdSong>
-            <idUtwory>55</idUtwory>
+            <idUtwory>105</idUtwory>
             <nazwa>MONSTER'S ZOO</nazwa>
-            <idSong>55</idSong>
             <dlugosc>262</dlugosc>
+            <idSong>105</idSong>
             <idwykonawcy>1</idwykonawcy>
             <idalbumu>1</idalbumu>
           </songs>
@@ -47,7 +47,7 @@
   </item>
   <item>
     <refId>2</refId>
-    <bandId>56</bandId>
+    <bandId>106</bandId>
     <nazwa>The Beatles</nazwa>
     <rok>1960</rok>
     <liczba>4</liczba>
@@ -55,34 +55,34 @@
     <albums>
       <albums>
         <refIdAlbum>2</refIdAlbum>
-        <idAlbumu>57</idAlbumu>
+        <idAlbumu>107</idAlbumu>
         <rokwydania>1970</rokwydania>
         <idwykonawcy>2</idwykonawcy>
         <songs>
           <songs>
             <refIdSong>4</refIdSong>
-            <idUtwory>58</idUtwory>
+            <idUtwory>108</idUtwory>
             <nazwa>Two Of Us</nazwa>
-            <idSong>58</idSong>
             <dlugosc>216</dlugosc>
+            <idSong>108</idSong>
             <idwykonawcy>2</idwykonawcy>
             <idalbumu>2</idalbumu>
           </songs>
           <songs>
             <refIdSong>5</refIdSong>
-            <idUtwory>59</idUtwory>
+            <idUtwory>109</idUtwory>
             <nazwa>Dig A Pony</nazwa>
-            <idSong>59</idSong>
             <dlugosc>235</dlugosc>
+            <idSong>109</idSong>
             <idwykonawcy>2</idwykonawcy>
             <idalbumu>2</idalbumu>
           </songs>
           <songs>
             <refIdSong>6</refIdSong>
-            <idUtwory>60</idUtwory>
+            <idUtwory>110</idUtwory>
             <nazwa>Across The Universe</nazwa>
-            <idSong>60</idSong>
             <dlugosc>228</dlugosc>
+            <idSong>110</idSong>
             <idwykonawcy>2</idwykonawcy>
             <idalbumu>2</idalbumu>
           </songs>
@@ -93,7 +93,7 @@
   </item>
   <item>
     <refId>3</refId>
-    <bandId>61</bandId>
+    <bandId>111</bandId>
     <nazwa>Pink Floyd</nazwa>
     <rok>1965</rok>
     <liczba>5</liczba>
@@ -101,34 +101,34 @@
     <albums>
       <albums>
         <refIdAlbum>3</refIdAlbum>
-        <idAlbumu>62</idAlbumu>
+        <idAlbumu>112</idAlbumu>
         <rokwydania>1979</rokwydania>
         <idwykonawcy>3</idwykonawcy>
         <songs>
           <songs>
             <refIdSong>7</refIdSong>
-            <idUtwory>63</idUtwory>
+            <idUtwory>113</idUtwory>
             <nazwa>The Thin Ice</nazwa>
-            <idSong>63</idSong>
             <dlugosc>149</dlugosc>
+            <idSong>113</idSong>
             <idwykonawcy>3</idwykonawcy>
             <idalbumu>3</idalbumu>
           </songs>
           <songs>
             <refIdSong>8</refIdSong>
-            <idUtwory>64</idUtwory>
+            <idUtwory>114</idUtwory>
             <nazwa>Another Brick In The Wall,Part 1</nazwa>
-            <idSong>64</idSong>
             <dlugosc>192</dlugosc>
+            <idSong>114</idSong>
             <idwykonawcy>3</idwykonawcy>
             <idalbumu>3</idalbumu>
           </songs>
           <songs>
             <refIdSong>9</refIdSong>
-            <idUtwory>65</idUtwory>
+            <idUtwory>115</idUtwory>
             <nazwa>Goodbye Blue Sky</nazwa>
-            <idSong>65</idSong>
             <dlugosc>167</dlugosc>
+            <idSong>115</idSong>
             <idwykonawcy>3</idwykonawcy>
             <idalbumu>3</idalbumu>
           </songs>
@@ -139,7 +139,7 @@
   </item>
   <item>
     <refId>4</refId>
-    <bandId>66</bandId>
+    <bandId>116</bandId>
     <nazwa>System Of Down</nazwa>
     <rok>1994</rok>
     <liczba>5</liczba>
@@ -147,34 +147,34 @@
     <albums>
       <albums>
         <refIdAlbum>4</refIdAlbum>
-        <idAlbumu>67</idAlbumu>
+        <idAlbumu>117</idAlbumu>
         <rokwydania>2005</rokwydania>
         <idwykonawcy>4</idwykonawcy>
         <songs>
           <songs>
             <refIdSong>10</refIdSong>
-            <idUtwory>68</idUtwory>
+            <idUtwory>118</idUtwory>
             <nazwa>Attack</nazwa>
-            <idSong>68</idSong>
             <dlugosc>186</dlugosc>
+            <idSong>118</idSong>
             <idwykonawcy>4</idwykonawcy>
             <idalbumu>4</idalbumu>
           </songs>
           <songs>
             <refIdSong>11</refIdSong>
-            <idUtwory>69</idUtwory>
+            <idUtwory>119</idUtwory>
             <nazwa>Dreaming</nazwa>
-            <idSong>69</idSong>
             <dlugosc>239</dlugosc>
+            <idSong>119</idSong>
             <idwykonawcy>4</idwykonawcy>
             <idalbumu>4</idalbumu>
           </songs>
           <songs>
             <refIdSong>12</refIdSong>
-            <idUtwory>70</idUtwory>
+            <idUtwory>120</idUtwory>
             <nazwa>Kill Rock'n Roll</nazwa>
-            <idSong>70</idSong>
             <dlugosc>147</dlugosc>
+            <idSong>120</idSong>
             <idwykonawcy>4</idwykonawcy>
             <idalbumu>4</idalbumu>
           </songs>
@@ -185,7 +185,7 @@
   </item>
   <item>
     <refId>5</refId>
-    <bandId>71</bandId>
+    <bandId>121</bandId>
     <nazwa>Led Zeppelin</nazwa>
     <rok>1968</rok>
     <liczba>4</liczba>
@@ -193,34 +193,34 @@
     <albums>
       <albums>
         <refIdAlbum>5</refIdAlbum>
-        <idAlbumu>72</idAlbumu>
+        <idAlbumu>122</idAlbumu>
         <rokwydania>2012</rokwydania>
         <idwykonawcy>5</idwykonawcy>
         <songs>
           <songs>
             <refIdSong>13</refIdSong>
-            <idUtwory>73</idUtwory>
+            <idUtwory>123</idUtwory>
             <nazwa>Good Times Bad Times</nazwa>
-            <idSong>73</idSong>
             <dlugosc>166</dlugosc>
+            <idSong>123</idSong>
             <idwykonawcy>5</idwykonawcy>
             <idalbumu>5</idalbumu>
           </songs>
           <songs>
             <refIdSong>14</refIdSong>
-            <idUtwory>74</idUtwory>
+            <idUtwory>124</idUtwory>
             <nazwa>Ramble On</nazwa>
-            <idSong>74</idSong>
             <dlugosc>263</dlugosc>
+            <idSong>124</idSong>
             <idwykonawcy>5</idwykonawcy>
             <idalbumu>5</idalbumu>
           </songs>
           <songs>
             <refIdSong>15</refIdSong>
-            <idUtwory>75</idUtwory>
+            <idUtwory>125</idUtwory>
             <nazwa>Black Dog</nazwa>
-            <idSong>75</idSong>
             <dlugosc>295</dlugosc>
+            <idSong>125</idSong>
             <idwykonawcy>5</idwykonawcy>
             <idalbumu>5</idalbumu>
           </songs>
