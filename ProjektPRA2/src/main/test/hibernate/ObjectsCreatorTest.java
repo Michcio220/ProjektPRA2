@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import hibernate.klasy.Album;
 import hibernate.klasy.Band;
+import hibernate.klasy.ObjectsCreator;
 import org.junit.Before;
 import org.junit.Test;
 

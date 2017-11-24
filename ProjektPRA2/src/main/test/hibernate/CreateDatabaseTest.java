@@ -2,6 +2,7 @@ package hibernate;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hibernate.klasy.Band;
+import hibernate.klasy.ObjectsCreator;
 import org.apache.log4j.BasicConfigurator;
 import org.junit.Before;
 import org.junit.Test;

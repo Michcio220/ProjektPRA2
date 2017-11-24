@@ -43,18 +43,24 @@ public class Queries {
 
     //Polecenie nr.5
     public List<Band> getBandByPage(int number){
+        //first query
         Query query = entityManager.createQuery(
                 "SELECT count(b) FROM Band b");
         long countResult = (long)query.getSingleResult();
+
+        //second query
+        Query query1 = entityManager.createQuery(
+                "SELECT b FROM Band b"
+        );
+
         int pageSize = 10;
         int pageNumber = (int)((countResult/pageSize) +1);
 
         if(number > pageNumber){ number = pageNumber;}
-
         query.setFirstResult((number - 1) * pageSize);
         query.setMaxResults(pageSize);
 
-        return query.getResultList();
+        return query1.getResultList();
     }
 
 }

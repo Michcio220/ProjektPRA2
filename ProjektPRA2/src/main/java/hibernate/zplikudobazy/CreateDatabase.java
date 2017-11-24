@@ -1,8 +1,9 @@
-package hibernate;
+package hibernate.zplikudobazy;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import hibernate.klasy.ObjectsCreator;
 import hibernate.klasy.Band;
 import org.apache.log4j.BasicConfigurator;
 
@@ -14,6 +15,8 @@ import java.util.List;
 @SuppressWarnings("unchecked")
 public class CreateDatabase{
 
+
+    //funkcja wprowadzajaca dane z pliku do bazy
     public static void StworzenieBazy(ObjectMapper mapper, String fileSuffix) throws Exception{
 
         BasicConfigurator.configure();

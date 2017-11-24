@@ -773,7 +773,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:28)
+	at hibernate.zbazydopliku.Main.main(Main.java:28)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1409,7 +1409,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1440,7 +1440,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1471,7 +1471,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1502,7 +1502,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1533,7 +1533,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1564,7 +1564,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -1595,7 +1595,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.main(Main.java:27)
+	at hibernate.zbazydopliku.Main.main(Main.java:27)
 Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fk7dj31wg14efrmj66vn6wujy3s" of relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -2188,8 +2188,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:82)
-	at hibernate.Main.main(Main.java:142)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:82)
+	at hibernate.zbazydopliku.Main.main(Main.java:142)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -2220,8 +2220,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:82)
-	at hibernate.Main.main(Main.java:142)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:82)
+	at hibernate.zbazydopliku.Main.main(Main.java:142)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -2252,8 +2252,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:82)
-	at hibernate.Main.main(Main.java:142)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:82)
+	at hibernate.zbazydopliku.Main.main(Main.java:142)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -2284,8 +2284,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:82)
-	at hibernate.Main.main(Main.java:142)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:82)
+	at hibernate.zbazydopliku.Main.main(Main.java:142)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -2316,8 +2316,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:82)
-	at hibernate.Main.main(Main.java:142)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:82)
+	at hibernate.zbazydopliku.Main.main(Main.java:142)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3270,8 +3270,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3302,8 +3302,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3334,8 +3334,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3366,8 +3366,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3398,8 +3398,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3430,8 +3430,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3462,8 +3462,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3596,8 +3596,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3628,8 +3628,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3660,8 +3660,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "idpiosenki" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3692,8 +3692,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "idpiosenki" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3724,8 +3724,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3756,8 +3756,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:74)
-	at hibernate.Main.main(Main.java:132)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:74)
+	at hibernate.zbazydopliku.Main.main(Main.java:132)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3827,8 +3827,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3859,8 +3859,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3891,8 +3891,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3923,8 +3923,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3955,8 +3955,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -3987,8 +3987,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:76)
-	at hibernate.Main.main(Main.java:134)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:76)
+	at hibernate.zbazydopliku.Main.main(Main.java:134)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -4256,8 +4256,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:68)
-	at hibernate.Main.main(Main.java:124)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:68)
+	at hibernate.zbazydopliku.Main.main(Main.java:124)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -4288,8 +4288,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:68)
-	at hibernate.Main.main(Main.java:124)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:68)
+	at hibernate.zbazydopliku.Main.main(Main.java:124)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -4320,8 +4320,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:68)
-	at hibernate.Main.main(Main.java:124)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:68)
+	at hibernate.zbazydopliku.Main.main(Main.java:124)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -4352,8 +4352,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.Main.noramlBaza(Main.java:68)
-	at hibernate.Main.main(Main.java:124)
+	at hibernate.zbazydopliku.Main.noramlBaza(Main.java:68)
+	at hibernate.zbazydopliku.Main.main(Main.java:124)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "musicians_albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5042,8 +5042,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5074,8 +5074,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5106,8 +5106,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5138,8 +5138,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5170,8 +5170,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5259,8 +5259,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5291,8 +5291,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5323,8 +5323,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5355,8 +5355,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:53)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:27)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:53)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5424,8 +5424,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5456,8 +5456,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5488,8 +5488,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5520,8 +5520,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:28)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5682,8 +5682,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:56)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5714,8 +5714,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:56)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5746,8 +5746,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:56)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -5778,8 +5778,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:56)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:30)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:56)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6027,8 +6027,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6059,8 +6059,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6091,8 +6091,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "albums_songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6123,8 +6123,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6155,8 +6155,8 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute comm
 	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
 	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
-	at hibernate.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
-	at hibernate.CreateDatabase.main(CreateDatabase.java:54)
+	at hibernate.zplikudobazy.CreateDatabase.StworzenieBazy(CreateDatabase.java:29)
+	at hibernate.zplikudobazy.CreateDatabase.main(CreateDatabase.java:54)
 Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not exist
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
@@ -6476,3 +6476,22 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "songs" does not e
 2017-11-24 09:59:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
 2017-11-24 09:59:15 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
 2017-11-24 09:59:16 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 10:10:05 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-24 10:10:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: BazaMichcio
+	...]
+2017-11-24 10:10:05 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-24 10:10:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-24 10:10:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-24 10:10:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-24 10:10:06 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-24 10:10:06 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-24 10:10:06 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=s426184}
+2017-11-24 10:10:06 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-24 10:10:06 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-24 10:10:08 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2017-11-24 10:10:16 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-24 10:10:16 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a486d78
+2017-11-24 10:10:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-24 10:10:19 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-24 10:10:20 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl:5432/dbad_s426184?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]

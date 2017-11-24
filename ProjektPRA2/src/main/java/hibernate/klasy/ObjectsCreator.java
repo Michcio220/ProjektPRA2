@@ -1,4 +1,4 @@
-package hibernate;
+package hibernate.klasy;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -6,9 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
-import hibernate.klasy.Album;
-import hibernate.klasy.Band;
-import hibernate.klasy.Song;
 
 import java.io.File;
 import java.io.IOException;

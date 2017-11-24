@@ -1,40 +1,196 @@
 [ {
-  "refIdAlbum" : 1,
-  "idAlbumu" : 57,
-  "rokwydania" : 1970,
-  "idwykonawcy" : {
-    "refId" : 1,
-    "bandId" : 56,
-    "nazwa" : "The Beatles",
-    "rok" : 1960,
-    "liczba" : 4,
-    "typ" : "Rock",
-    "albums" : [ 1 ]
-  },
-  "songs" : [ {
-    "refIdSong" : 1,
-    "idUtwory" : 58,
-    "nazwa" : "Two Of Us",
-    "dlugosc" : 216,
-    "idSong" : 58,
+  "refId" : 1,
+  "bandId" : 51,
+  "nazwa" : "FAKE TYPE",
+  "rok" : 2013,
+  "liczba" : 2,
+  "typ" : "HipHop",
+  "albums" : [ {
+    "refIdAlbum" : 1,
+    "idAlbumu" : 52,
+    "rokwydania" : 2013,
     "idwykonawcy" : 1,
-    "idalbumu" : 1
-  }, {
-    "refIdSong" : 2,
-    "idUtwory" : 59,
-    "nazwa" : "Dig A Pony",
-    "dlugosc" : 235,
-    "idSong" : 59,
-    "idwykonawcy" : 1,
-    "idalbumu" : 1
-  }, {
-    "refIdSong" : 3,
-    "idUtwory" : 60,
-    "nazwa" : "Across The Universe",
-    "dlugosc" : 228,
-    "idSong" : 60,
-    "idwykonawcy" : 1,
-    "idalbumu" : 1
-  } ],
-  "nazwaAlbumu" : "Let It Be"
+    "songs" : [ {
+      "refIdSong" : 1,
+      "idUtwory" : 53,
+      "nazwa" : "Devil's Wedding",
+      "dlugosc" : 281,
+      "idSong" : 53,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    }, {
+      "refIdSong" : 2,
+      "idUtwory" : 54,
+      "nazwa" : "Bacchus",
+      "dlugosc" : 272,
+      "idSong" : 54,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    }, {
+      "refIdSong" : 3,
+      "idUtwory" : 55,
+      "nazwa" : "MONSTER'S ZOO",
+      "dlugosc" : 262,
+      "idSong" : 55,
+      "idwykonawcy" : 1,
+      "idalbumu" : 1
+    } ],
+    "nazwaAlbumu" : "FAKE BOOK"
+  } ]
+}, {
+  "refId" : 2,
+  "bandId" : 56,
+  "nazwa" : "The Beatles",
+  "rok" : 1960,
+  "liczba" : 4,
+  "typ" : "Rock",
+  "albums" : [ {
+    "refIdAlbum" : 2,
+    "idAlbumu" : 57,
+    "rokwydania" : 1970,
+    "idwykonawcy" : 2,
+    "songs" : [ {
+      "refIdSong" : 4,
+      "idUtwory" : 58,
+      "nazwa" : "Two Of Us",
+      "dlugosc" : 216,
+      "idSong" : 58,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    }, {
+      "refIdSong" : 5,
+      "idUtwory" : 59,
+      "nazwa" : "Dig A Pony",
+      "dlugosc" : 235,
+      "idSong" : 59,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    }, {
+      "refIdSong" : 6,
+      "idUtwory" : 60,
+      "nazwa" : "Across The Universe",
+      "dlugosc" : 228,
+      "idSong" : 60,
+      "idwykonawcy" : 2,
+      "idalbumu" : 2
+    } ],
+    "nazwaAlbumu" : "Let It Be"
+  } ]
+}, {
+  "refId" : 3,
+  "bandId" : 61,
+  "nazwa" : "Pink Floyd",
+  "rok" : 1965,
+  "liczba" : 5,
+  "typ" : " Progressive Rock",
+  "albums" : [ {
+    "refIdAlbum" : 3,
+    "idAlbumu" : 62,
+    "rokwydania" : 1979,
+    "idwykonawcy" : 3,
+    "songs" : [ {
+      "refIdSong" : 7,
+      "idUtwory" : 63,
+      "nazwa" : "The Thin Ice",
+      "dlugosc" : 149,
+      "idSong" : 63,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    }, {
+      "refIdSong" : 8,
+      "idUtwory" : 64,
+      "nazwa" : "Another Brick In The Wall,Part 1",
+      "dlugosc" : 192,
+      "idSong" : 64,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    }, {
+      "refIdSong" : 9,
+      "idUtwory" : 65,
+      "nazwa" : "Goodbye Blue Sky",
+      "dlugosc" : 167,
+      "idSong" : 65,
+      "idwykonawcy" : 3,
+      "idalbumu" : 3
+    } ],
+    "nazwaAlbumu" : "The Wall"
+  } ]
+}, {
+  "refId" : 4,
+  "bandId" : 66,
+  "nazwa" : "System Of Down",
+  "rok" : 1994,
+  "liczba" : 5,
+  "typ" : "Hard Rock",
+  "albums" : [ {
+    "refIdAlbum" : 4,
+    "idAlbumu" : 67,
+    "rokwydania" : 2005,
+    "idwykonawcy" : 4,
+    "songs" : [ {
+      "refIdSong" : 10,
+      "idUtwory" : 68,
+      "nazwa" : "Attack",
+      "dlugosc" : 186,
+      "idSong" : 68,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    }, {
+      "refIdSong" : 11,
+      "idUtwory" : 69,
+      "nazwa" : "Dreaming",
+      "dlugosc" : 239,
+      "idSong" : 69,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    }, {
+      "refIdSong" : 12,
+      "idUtwory" : 70,
+      "nazwa" : "Kill Rock'n Roll",
+      "dlugosc" : 147,
+      "idSong" : 70,
+      "idwykonawcy" : 4,
+      "idalbumu" : 4
+    } ],
+    "nazwaAlbumu" : "Hypnotize"
+  } ]
+}, {
+  "refId" : 5,
+  "bandId" : 71,
+  "nazwa" : "Led Zeppelin",
+  "rok" : 1968,
+  "liczba" : 4,
+  "typ" : "Blues Rock",
+  "albums" : [ {
+    "refIdAlbum" : 5,
+    "idAlbumu" : 72,
+    "rokwydania" : 2012,
+    "idwykonawcy" : 5,
+    "songs" : [ {
+      "refIdSong" : 13,
+      "idUtwory" : 73,
+      "nazwa" : "Good Times Bad Times",
+      "dlugosc" : 166,
+      "idSong" : 73,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    }, {
+      "refIdSong" : 14,
+      "idUtwory" : 74,
+      "nazwa" : "Ramble On",
+      "dlugosc" : 263,
+      "idSong" : 74,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    }, {
+      "refIdSong" : 15,
+      "idUtwory" : 75,
+      "nazwa" : "Black Dog",
+      "dlugosc" : 295,
+      "idSong" : 75,
+      "idwykonawcy" : 5,
+      "idalbumu" : 5
+    } ],
+    "nazwaAlbumu" : "Celebration Day"
+  } ]
 } ]
